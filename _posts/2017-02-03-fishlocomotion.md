@@ -1,6 +1,6 @@
 ---
+layout: post
 title: Mechanics and Bio-Inspired Robotics of Fish Locomotion
-description: research into the motion of black ghost knife fish by robotic modeling to gain insight on fin mechanics
 categories: research
 ---
 

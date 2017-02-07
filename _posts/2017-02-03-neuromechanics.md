@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Neuromechanics of Prey Capture
-description: research on larval zebra fish prey capture to understand how brains process complex stimuli
 categories: research
 ---
 

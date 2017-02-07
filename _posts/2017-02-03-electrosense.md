@@ -1,6 +1,6 @@
 ---
+layout: post
 title: Active Electrosense
-description: an overview of current research in active electrosense and electrolocation
 categories: research
 ---
 
