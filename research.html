@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Research
 ---
 
@@ -12,7 +11,8 @@ in collaboration with Prof. David McLean at Northwestern University to understan
     <div class="list-item">
         <p class="list-post-title">
         <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-        (small>{{post.date | date: "%m/%d%y"}}</small>)
+        (<small>{{post.date | date: "%m/%d%y"}}</small>)
+        <p> {{post.content}}</p>
         </p>
   {% endfor %}
 </div>
