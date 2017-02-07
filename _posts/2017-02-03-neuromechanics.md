@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Neuromechanics of Prey Capture
 categories: research
 ---
