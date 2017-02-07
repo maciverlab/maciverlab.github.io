@@ -10,10 +10,8 @@ Our research is centered around fish. Part of the lab is focused on  weakly elec
 
   {% for post in site.posts %}
     {% if post.categories contains ‘research’ %}
-    <div class="list-item">
-    <p class="list-post-title">
-        <a href="{{ site.baseurl }}{{ post.url }}">- {{ post.title }}</a> (<small>{{post.date | date: "%m/%d/%y" }}</small>)
-        </p>
-    </div>
+  	<h3><strong>{{ page.title }}</strong><br/>
+  	<small>posted on {{ page.date | date: '%B %-d, %Y'}}</small></h3>
+  	{{ content }}
     {% endif %}
   {% endfor %}
