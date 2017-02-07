@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Active Electrosense
-categories: research
+categories: “research”
 ---
 
 Few effective technologies exist for sensing in dark or murky underwater situations. For this reason, we have been exploring the use of a novel biologically-inspired approach to non-visual sensing based on the detection of perturbations to a self generated electric field. This is used by many species of neotropical nocturnal freshwater fish. This approach, termed active electrosense, provides unique capabilities for sensing of nearby objects.
