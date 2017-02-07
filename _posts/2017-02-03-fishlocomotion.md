@@ -1,5 +1,6 @@
 ---
 title: Mechanics and Bio-Inspired Robotics of Fish Locomotion
+categories: research
 ---
 
 Knifefish are highly maneuverable swimmers capable of navigating complex environments. The fish generate thrust by undulating an elongated ventral fin. We study the fin mechanics using motion capture of live fish, computational fluid dynamics, and bio-inspired robotics. Using these tools, we are uncovering the underlying principles of knifefish locomotion which can then be implemented into underwater robotics to enhance maneuverability.
