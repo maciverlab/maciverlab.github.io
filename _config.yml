@@ -1,0 +1,64 @@
+
+# Basic
+name:               "MacIver Lab"
+title:              "laboratory of info-mechanics and neuroethology"
+description:        "this is the page for MacIver Lab, we are a neuroethology lab under Neuroscience and Robotics (NxR) Lab based in Northwestern University, Evanston"
+
+
+
+# URL
+url:                http://maciverlab.github.io
+baseurl:
+#baseurl:            "" #For Root Domain
+permalink:          /:title.html
+
+# Markdown
+markdown:           kramdown
+
+# Highlighter
+highlighter:        rouge
+
+# Navigation
+nav:
+  - name:           "home"
+    href:           "/"
+  - name:           "about"
+    href:           "/about"
+  - name:           "publications"
+    href:           "/publication"
+  - name:           "projects"
+    href:           "/projects"
+#  - name:           "people"
+#    href:           "/people"
+
+
+# Sass
+sass:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+ # -
+ #   scope:
+ #     path:         ""
+ #     type:         "people"
+ #   values:
+ #     layout:       "profile"
+
+
+#collections:
+#  people:
+#    output: true
+#    permalink: /people/:title/index.html
