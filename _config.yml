@@ -50,21 +50,21 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
- # -
- #   scope:
- #     path:         ""
- #     type:         "people"
- #   values:
- #     layout:       "profile"
+  -
+    scope:
+      path:         ""
+      type:         "people"
+    values:
+      layout:       "post"
 
 
 collections:
   projects:
     output: true
-    permalink: /projects/:title/index.html
+    permalink: /projects/:categories/:title.html
   data:
     output: true
-    permalink: /data/:title/index.html
+    permalink: /data/:categories/:title.html
 #  people:
 #    output: true
 #    permalink: /people/:title/index.html
