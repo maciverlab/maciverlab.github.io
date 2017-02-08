@@ -4,13 +4,13 @@ layout: page
 <h2> Available Data </h2>
 
 <p> Click on the paper title to navigate to the provided data.</p>
-try3
+try4
 
 <div class="content list">
     {% for post in site.posts %}
     {% if post.type contains 'about' %}
     <div class="list-item">
-        {% for project in site.projects %}
+        {% for project in site.data %}
         {% if project.paper contains post.paper %}
         <h3 class="list-post-title">
             <a class = "name" href={{site.url}}{{project.url}}>{{post.title}}</a></h3>
