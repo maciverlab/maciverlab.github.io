@@ -10,10 +10,10 @@ layout: page
     {% if post.type contains 'about' %}
     <div class="list-item">
         {% for dat in site.data %}
-        {% if dat.paper contains post.paper %}
-        <h3 class="list-post-title">
-            <a class = "name" href={{site.url}}{{dat.url}}>{{post.title}}</a></h3>
-        {% endif %}
+            {% if dat.paper contains post.paper %}
+            <h3 class="list-post-title">
+                <a class = "name" href={{site.url}}{{dat.url}}>{{post.title}}</a></h3>
+            {% endif %}
         {% endfor %}
     </div>
     {% endif %}
@@ -22,9 +22,9 @@ layout: page
 
 <h3> Literature </h3>
 
-<p>Most of the cited literature except some books and monographs can be found in the literature folder<br>
-of the repository of interest. The publications are titled with format: first four letters of author <br>
-last name last two digits of publication year and part of the title (eg. MacIver, Malcolm A., Noura M. <br>
-Sharabash, and Mark E. Nelson. "Prey-capture behavior in gymnotid electric fish: motion analysis and <br>
-effects of water conductivity." *Journal of experimental biology* 204.3 (2001): 543-557. <br>
+<p>Most of the cited literature except some books and monographs can be found in the literature folder
+of the repository of interest. The publications are titled with format: first four letters of author
+last name last two digits of publication year and part of the title (eg. MacIver, Malcolm A., Noura M.
+Sharabash, and Mark E. Nelson. "Prey-capture behavior in gymnotid electric fish: motion analysis and
+effects of water conductivity." *Journal of experimental biology* 204.3 (2001): 543-557.
 in pdf form is: MacI01a_prey_capture_behavior_gymanotid_el_4500.pdf) </p>
