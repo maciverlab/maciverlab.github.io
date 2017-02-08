@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Projects
 permalink: /projects/
 ---
@@ -14,7 +13,7 @@ By clicking on the paper title you can navigate to a complete run through of the
         {% if post.categories contains 'bigeye' and post.type contains 'about' %}
         <div class="list-item">
             <h3 class="list-post-title">
-            <a href=“{{site.url}}{{projects.url}}>{{post.title}}</h3>
+            <a href=“{{site.url}}{{projects.url}}”>{{post.title}}</h3>
         </div>
         <p> {{post.content}} </p>
         {% endif %}
