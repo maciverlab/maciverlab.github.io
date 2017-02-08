@@ -4,15 +4,16 @@ layout: page
 <h2> Available Data </h2>
 
 <p> Click on the paper title to navigate to the provided data.</p>
+try1
 
 <div class="content list">
     {% for post in site.posts %}
     {% if post.type contains 'about' %}
     <div class="list-item">
-        {% for dat in site.data %}
-            {% if dat.paper contains post.paper %}
+        {% for av_data in site.data %}
+            {% if av_data.paper contains post.paper %}
             <h3 class="list-post-title">
-                <a class = "name" href={{site.url}}{{dat.url}}>{{post.title}}</a></h3>
+                <a class = "name" href={{site.url}}{{av_data.url}}>{{post.title}}</a></h3>
             {% endif %}
         {% endfor %}
     </div>
