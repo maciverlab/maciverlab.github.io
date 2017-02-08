@@ -5,14 +5,18 @@ layout: page
 <p>We try to make code available for all our computational work. <br><br>
 By clicking on the paper title you can navigate to a complete run through of the available code, and links to the Github repository.</p>
 
-test new 5
+test new 6
 
 <div class="content list people">
     {% for post in site.posts %}
         {% if post.type contains 'about' %}
-        <div class="list-item-people">
-            <h3 class="list-post-title">
-                <a class = "name" href={{site.url}}{{post.url}}>{{post.title}}</a></h3>
+        <div class="list-item-people">\
+            {% for project in site.projects}
+                {% if project.paper contains post.paper %}
+                <h3 class="list-post-title">
+                    <a class = "name" href={{site.url}}{{project.url}}>{{post.title}}</a></h3>
+                {% endif %}
+            {% enfor%}
         </div>
         <p> {{post.content}} </p>
         {% endif %}
