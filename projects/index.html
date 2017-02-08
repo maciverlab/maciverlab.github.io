@@ -14,11 +14,11 @@ By clicking on the paper title you can navigate to a complete run through of the
                 {% if project.paper contains post.paper %}
                 <h3 class="list-post-title">
                     <a class = "name" href={{site.url}}{{project.url}}>{{post.title}}</a></h3>
-                {% endif %}
-            {% endfor %}
         </div>
         <p> {{post.content}} </p>
         {% endif %}
-    {% endfor %}
+        {% endfor %}
+        {% endif %}
+        {% endfor %}
 </div>
 	
