@@ -1,6 +1,6 @@
 
 # Basic
-name:               "MacIver Lab"
+name:               "MACIVER LAB"
 title:              "laboratory of info-mechanics and neuroethology"
 description:        "this is the page for MacIver Lab, we are a neuroethology lab under Neuroscience and Robotics (NxR) Lab based in Northwestern University, Evanston"
 
@@ -20,13 +20,13 @@ highlighter:        rouge
 
 # Navigation
 nav:
-  - name:           "home"
+  - name:           "HOME"
     href:           "/"
-  - name:           "about"
+  - name:           "ABOUT"
     href:           "/about"
-  - name:           "research"
+  - name:           "RESEARCH"
     href:           "/research"
-  - name:           "projects"
+  - name:           "PROJECTS"
     href:           "/projects"
 #  - name:           "people"
 #    href:           "/people"
@@ -58,7 +58,10 @@ defaults:
  #     layout:       "profile"
 
 
-#collections:
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/index.html
 #  people:
 #    output: true
 #    permalink: /people/:title/index.html
