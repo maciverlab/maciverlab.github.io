@@ -5,18 +5,16 @@ layout: page
 
 <p> Click on the paper title to navigate to the provided data.</p>
 
-try 2
+try 3
 
     {% for post in site.posts %}
     {% if post.type contains 'about' %}
-    <div class="list-item">
         {% for project in site.projdata %}
         {% if project.paper contains post.paper %}
         <h2><a href={{site.url}}{{post.url}}>{{post.title}}</a></h2>
         <p> burda </p>
         {% endif %}
         {% endfor %}
-    </div>
     {% endif %}
     {% endfor %}
 
