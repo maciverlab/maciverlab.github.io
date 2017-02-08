@@ -11,8 +11,8 @@ test new 6
     {% for post in site.posts %}
         {% if post.type contains 'about' %}
         <div class="list-item-people">\
-            {% for project in site.projects}
-                {% if project.paper contains 'bigeye'%}
+            {% for project in site.projects %}
+                {% if project.paper contains post.paper %}
                 <h3 class="list-post-title">
                     <a class = "name" href={{site.url}}{{project.url}}>{{post.title}}</a></h3>
                 {% endif %}
