@@ -4,7 +4,6 @@ layout: page
 <h2> Available Data </h2>
 
 <p> Click on the paper title to navigate to the provided data.</p>
-try5
 
 <div class="content list">
     {% for post in site.posts %}
@@ -13,11 +12,10 @@ try5
         {% for project in site.projdata %}
         {% if project.paper contains post.paper %}
         <h3 class="list-post-title">
-            <a class = "name" href={{site.url}}{{project.url}}>{{post.title}}</a></h3>
+            <a class = "name" href={{site.url}}{{project.url}}>- {{post.title}}</a></h3>
         {% endif %}
         {% endfor %}
     </div>
-    <p> {{post.content}} </p>
     {% endif %}
     {% endfor %}
 </div>
