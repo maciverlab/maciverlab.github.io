@@ -1,7 +1,6 @@
 ---
-title: Projects
-permalink: /projects/
----
+layout: page
+—-—
 
 We try to make code available for all our computational work.
  
