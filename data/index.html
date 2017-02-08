@@ -1,29 +1,30 @@
 ---
-layout: default
+layout: page
 ---
+<h2> Available Data </h2>
 
-<div class='container'>
-    <header class="masthead text-center">
-        
-      <p>Understanding animal behavior from ethological, evolutionary
-        neuronal, robotic and computational angles. This website has links to <br>
-        computational projects for reproducability. </p>
+<p> Click on the paper title to navigate to the provided data.</p>
 
-      <p>Technological Institute, NxR, Northwestern University<br>
-        2145 N. Sheridan Rd, Evanston IL 60208
-
-        <span style="display: block; margin-bottom: 1em"></span>
-        Office Phone: (847) 491-3540<br>
-        Office Location: B292<br>
-        Lab Location: B272<br>
-
-        <span style="display: block; margin-bottom: 3em"></span>
-
-      <a href="https://github.com/maciverlab"><i class="fa fa-github"></i> MacIverLab</a>&nbsp;&nbsp;&nbsp;
-      <a href="https://scholar.google.com/citations?user=9H9FROQAAAAJ&hl=en"<i class="fa fa-google"></i> google scholar</a>&nbsp;&nbsp;&nbsp;
-      <a href="mailto:maciverlab@gmail.com"><i class="fa fa-envelope-o"></i> maciverlab@gmail.com</a>
-      </a>
-      </p>
-
-    </header>
+<div class="content list">
+    {% for post in site.posts %}
+    {% if post.type contains 'about' %}
+    <div class="list-item">
+        {% for dat in site.data %}
+        {% if dat.paper contains post.paper %}
+        <h3 class="list-post-title">
+            <a class = "name" href={{site.url}}{{dat.url}}>{{post.title}}</a></h3>
+        {% endif %}
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% endfor %}
 </div>
+
+<h3> Literature </h3>
+
+<p>Most of the cited literature except some books and monographs can be found in the literature folder<br>
+of the repository of interest. The publications are titled with format: first four letters of author <br>
+last name last two digits of publication year and part of the title (eg. MacIver, Malcolm A., Noura M. <br>
+Sharabash, and Mark E. Nelson. "Prey-capture behavior in gymnotid electric fish: motion analysis and <br>
+effects of water conductivity." *Journal of experimental biology* 204.3 (2001): 543-557. <br>
+in pdf form is: MacI01a_prey_capture_behavior_gymanotid_el_4500.pdf) </p>

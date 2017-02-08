@@ -54,6 +54,12 @@ defaults:
       type:         "projects"
     values:
       layout:       "post"
+  -
+    scope:
+      path:         ""
+      type:         "data"
+    values:
+      layout:       "post"
 
 
 collections:
