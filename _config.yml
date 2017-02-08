@@ -28,8 +28,8 @@ nav:
     href:           "/research"
   - name:           "PROJECTS"
     href:           "/projects"
-#  - name:           "people"
-#    href:           "/people"
+  - name:           "DATA"
+    href:           "/data"
 
 
 # Sass
@@ -62,6 +62,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:title/index.html
+  data:
+    output: true
+    permalink: /data/:title/index.html
 #  people:
 #    output: true
 #    permalink: /people/:title/index.html
