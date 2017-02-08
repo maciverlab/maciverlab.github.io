@@ -57,7 +57,7 @@ defaults:
   -
     scope:
       path:         ""
-      type:         "data"
+      type:         "projdata"
     values:
       layout:       "post"
 
