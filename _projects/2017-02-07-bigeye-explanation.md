@@ -3,7 +3,9 @@ title: Massive increase in visual range preceded the origin of terrestrial verte
 paper: bigeye
 categories: bigeye
 ---
-
+<br><br>
+[![DOI](https://zenodo.org/badge/76398715.svg)](https://zenodo.org/badge/latestdoi/76398715)
+<br><br>
 ## Generating the summary of our phylogenetic comparative study
 
 You can visualize the main results of our phylogenetic comparative analysis (similar to Fig. 2) by executing the code in folder [fig02_phylo_orbit](https://github.com/maciverlab/bigeye/tree/master/figs/fig02_phylo_orbit) in the project GitHub. The script plots the phylogeny of the species in our analysis, scaled against geologic time, and illustrates the residual eye socket size of early tetrapods by adding scaled dots to the tips. It also highlights the branches along which we found support for changes in the selective regime of eye socket evolution. These branches were identified with bayou, an R package for characterizing the dynamics of adaptive landscape. Note that we are summarizing results over a set of 1000 trees. The major differences between the trees concern the time-scaling, and the topology of three unresolved parts of the tree. These polytomies were resolved randomly and branches in these parts of the tree did not feature well-supported shifts in eye socket size evolution.To run the code, go to the directory of the script in terminal/command prompt and type…
