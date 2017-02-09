@@ -22,12 +22,12 @@ highlighter:        rouge
 nav:
   - name:           "HOME"
     href:           "/"
-  - name:           "RESEARCH"
-    href:           "/research"
   - name:           "PROJECTS"
     href:           "/projects"
   - name:           "DATA"
     href:           "/data"
+  #- name:           "RESEARCH"
+  #  href:           "/research"
 
 
 # Sass
