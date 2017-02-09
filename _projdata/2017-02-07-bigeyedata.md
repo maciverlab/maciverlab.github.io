@@ -1,8 +1,12 @@
 ---
-title: A massive increase in visual range preceded the origin of terrestrial vertebrates data
+title: Massive increase in visual range preceded the origin of terrestrial vertebrates data
 paper: bigeye
 categories: bigeye
 ---
+
+To do:
+Add the paleo data
+
 
 ## Hydrolight
 
@@ -14,3 +18,8 @@ The files included here contain the Iroot.txt input files, and multiwavelength-f
 ## Images for contrast analysis
 
 From Google images various images of millipedes, centipedes and fresh water fish were found to calculate naturalistic contrast values. These images can be found in the folder [imagecontrast](https://github.com/maciverlab/bigeye/tree/master/figs/data/vision/imagecontrast).
+
+## Literature
+
+Most of the cited literature except some books and monographs can be found in the [literature folder](https://github.com/maciverlab/bigeye/tree/master/literature). The publications are titled with format: first four letters of author last name last two digits of publication year and part of the title (eg. MacIver, Malcolm A., Noura M. Sharabash, and Mark E. Nelson. "Prey-capture behavior in gymnotid electric fish: motion analysis and effects of water conductivity." *Journal of experimental biology* 204.3 (2001): 543-557.
+in pdf form is: MacI01a_prey_capture_behavior_gymanotid_el_4500.pdf)</p>
