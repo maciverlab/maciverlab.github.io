@@ -18,7 +18,7 @@ are created through posts located in the _posts directory.
 
 ### How to add research or modify:
 
-You can add any posts in markdown or html to the (_posts_) directory. 
+You can add any posts in markdown or html to the (\_posts) directory. 
 Jekyll posts are named in a particular convetion: yyyy-mm-dd-title.md/html, and have at the beginning what is called the front matter
 
 To add posts into the research page the frontmatter of the post should look like:
@@ -47,4 +47,20 @@ type: about
 ---
 ```
 
-This will put the abstract along with the title to the page.
+This will put the abstract along with the title to the page. For an explanation of code page, a post in markdown needs to be created and placed in the \_projects folder. The project post needs to have a title, paper and category specified. 
+
+Eg. For bigeye
+```
+---
+title: Massive increase in visual range preceded the origin of terrestrial vertebrates
+paper: bigeye
+categories: bigeye
+---
+```
+
+The paper front matter links the post that resides in \_posts that contains the abstract to the project explanation post that is in \_projects. This creates custom domain that is dependent on the category specified in the \_projects/mm-dd-yy-posttitle.md, such as maciverlab.github.io/projects/bigeye/bigeye-explanation.html
+
+## Data Page:
+
+Data page works similar to the projects page but this time abstract or explanation regarding the paper are not provided. Data index.html looks through posts to see if there are ones that are type: about and goes to the \_projdata directory to search through posts 
+
