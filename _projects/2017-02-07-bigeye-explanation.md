@@ -1,5 +1,5 @@
 ---
-title: A massive increase in visual range preceded the origin of terrestrial vertebrates
+title: Massive increase in visual range preceded the origin of terrestrial vertebrates
 paper: bigeye
 categories: bigeye
 ---
