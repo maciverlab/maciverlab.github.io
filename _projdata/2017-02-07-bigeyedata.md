@@ -5,8 +5,34 @@ categories: bigeye
 ---
 
 To do:
-Add the paleo data
+rename file names
 
+## Morphological and phylogenetic data for eye-orbit correlation
+
+To better understand the correlation betwen the bony eye socket and soft 
+tissue dimensions of the eye we collected measurements in teleost fish. We provide these 
+morphological measurements in CSV files, named "mean_ol_ed_pd_0502.csv" **(needs hyperink)** (for eye diameter) 
+and "mean_ol_ed_pd_0709.csv" **(needs hyperlink)** (for pupil diameter).
+
+In oder to perform this statistical description with incorporation of phylogenetic 
+covariance, we also provide a tree-file for a species-level, time-calibrated fish 
+phylogeny from [Rabosky et al. 2013, Nature Communications](https://github.com/maciverlab/bigeye/blob/master/literature/Rabo13a_rates_speciation.pdf) [“fish.tre”](https://github.com/maciverlab/bigeye/blob/master/figs/data/paleo/fish.tre).
+
+## Phylogenetic data for tetrapod analysis
+
+The basic topology of our tree is provided in the tree-file [“bigeye0527.tre”](https://github.com/maciverlab/bigeye/blob/master/figs/data/paleo/bigeye0527.csv). For time-calibration,
+you will need the stratigraphic ranges of the taxa, which can be found in the CSV-file [“sampled.alt.csv”](https://github.com/maciverlab/bigeye/blob/master/figs/data/paleo/sampled.alt.csv).
+A full set of 1000 trees is available in [“alt.equal.trees.tre”](https://github.com/maciverlab/bigeye/blob/master/figs/data/paleo/alt.equal.trees.tre).
+
+## Morphological data for tetrapod analysis
+
+Measurements of skull length and eye socket length in tetrapods are in the CSV-file [“bigeye0527.csv”](https://github.com/maciverlab/bigeye/blob/master/figs/data/paleo/bigeye0527.csv),
+formatted for easier handling in R. Residuals of eye sockets on skull length, obtained from PGLS with 
+Brownian motion correlation structure are provided in [“BMres.csv”](https://github.com/maciverlab/bigeye/blob/master/figs/data/paleo/BMres.csv). 
+
+## Skull Images
+
+All the skull images with superimposed measurement indicator (as provided in the supplement) used in this study can be found in the folder [*skull_measurements*](https://github.com/maciverlab/bigeye/tree/master/figs/data/paleo/skull_measurements). Moreover, raw skull images are also available in folder [*skulls_raw*](https://github.com/maciverlab/bigeye/tree/master/figs/data/paleo/skulls_raw).
 
 ## HydroLight
 
