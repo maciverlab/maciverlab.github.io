@@ -13,7 +13,7 @@ and [“pupil_orbit.csv”](https://github.com/maciverlab/Bigeye/blob/master/fig
 
 In oder to perform this statistical description with incorporation of phylogenetic 
 covariance, we also provide a tree-file for a species-level, time-calibrated fish 
-phylogeny from [Rabosky et al. 2013, Nature Communications](https://github.com/maciverlab/Bigeye/blob/master/literature/Rabo13a_rates_speciation.pdf) which is provided in the file [“fish.tre”](https://github.com/maciverlab/Bigeye/blob/master/figs/data/paleo/fish.tre).
+phylogeny from *Rabosky et al. 2013, Nature Communications* which is provided in the file [“fish.tre”](https://github.com/maciverlab/Bigeye/blob/master/figs/data/paleo/fish.tre).
 
 ## Phylogenetic data for tetrapod analysis
 
