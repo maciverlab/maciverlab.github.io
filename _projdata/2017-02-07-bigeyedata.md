@@ -57,5 +57,8 @@ From Google images various images of millipedes, centipedes and fresh water fish
 
 ## Literature
 
-Most of the cited literature except some books and monographs can be found in the [literature folder](https://github.com/maciverlab/bigeye/tree/master/literature). The publications are titled with format: first four letters of author last name last two digits of publication year and part of the title (eg. MacIver, Malcolm A., Noura M. Sharabash, and Mark E. Nelson. "Prey-capture behavior in gymnotid electric fish: motion analysis and effects of water conductivity." *Journal of experimental biology* 204.3 (2001): 543-557.
+Most of the cited literature except some books and monographs can be found in the [*cited_literature*](https://github.com/maciverlab/bigeye/tree/master/cited_literature) folder. This folder contains password protected zip archives of all the cited literature. Please email [mreplicated@gmail.com](mailto: mreplicated@gmail.com) for access to the password to de-encrypt the archives. 
+
+
+The publications are titled with format: first four letters of author last name last two digits of publication year and part of the title (eg. MacIver, Malcolm A., Noura M. Sharabash, and Mark E. Nelson. "Prey-capture behavior in gymnotid electric fish: motion analysis and effects of water conductivity." *Journal of experimental biology* 204.3 (2001): 543-557.
 in pdf form is: MacI01a_prey_capture_behavior_gymanotid_el_4500.pdf)</p>
