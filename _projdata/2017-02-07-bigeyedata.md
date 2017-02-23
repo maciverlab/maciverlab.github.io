@@ -4,15 +4,12 @@ paper: bigeye
 categories: bigeye
 ---
 
-To do:
-rename file names
-
 ## Morphological and phylogenetic data for eye-orbit correlation
 
-To better understand the correlation betwen the bony eye socket and soft 
+To better understand the correlation between the bony eye socket and soft 
 tissue dimensions of the eye we collected measurements in teleost fish. We provide these 
-morphological measurements in CSV files, named "mean_ol_ed_pd_0502.csv" **(needs hyperink)** (for eye diameter) 
-and "mean_ol_ed_pd_0709.csv" **(needs hyperlink)** (for pupil diameter).
+morphological measurements in CSV files, named [“eye_orbit.csv”](https://github.com/maciverlab/bigeye/blob/master/figs/data/paleo/eye_orbit.csv)(for eye diameter) 
+and [“pupil_orbit.csv”](https://github.com/maciverlab/bigeye/blob/master/figs/data/paleo/pupil_orbit.csv) (for pupil diameter).
 
 In oder to perform this statistical description with incorporation of phylogenetic 
 covariance, we also provide a tree-file for a species-level, time-calibrated fish 
