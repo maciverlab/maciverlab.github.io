@@ -3,6 +3,9 @@ title: Massive increase in visual range preceded the origin of terrestrial verte
 paper: bigeye
 categories: bigeye
 ---
+<br>
+[![DOI](https://zenodo.org/badge/82974287.svg)](https://zenodo.org/badge/latestdoi/82974287)
+<br>
 
 ## Generating the summary of our phylogenetic comparative study
 
