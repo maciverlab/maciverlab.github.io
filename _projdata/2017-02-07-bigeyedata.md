@@ -61,4 +61,4 @@ Most of the cited literature except some books and monographs can be found in th
 
 
 The publications are titled with format: first four letters of author last name last two digits of publication year and part of the title (eg. MacIver, Malcolm A., Noura M. Sharabash, and Mark E. Nelson. "Prey-capture behavior in gymnotid electric fish: motion analysis and effects of water conductivity." *Journal of experimental biology* 204.3 (2001): 543-557.
-in pdf form is: MacI01a_prey_capture_behavior_gymanotid_el_4500.pdf)</p>
+in pdf form is: MacI01a_prey_capture_behavior_gymanotid_el_4500.pdf)
