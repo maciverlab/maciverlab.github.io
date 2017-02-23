@@ -49,7 +49,7 @@ Skull measurements from published drawing and images produced by experts in the 
 Skull images used can be found in the Supplementary Appendix.
 
 
-Directory titled [fig03_socket_length](https://github.com/maciverlab/Bigeye/tree/master/figs/fig03_socket_length) has the main code to plot eye socket sizes across taxa. The function named [fig03a_socketlength](https://github.com/maciverlab/Bigeye/tree/master/figs/fig03a_socket_length writes a text file with calculated stat values (mean, standard deviation and sample size) ,creates two data files:
+Directory titled [fig03_socket_length](https://github.com/maciverlab/Bigeye/tree/master/figs/fig03_socket_length) has the main code to plot eye socket sizes across taxa. The function named [fig03a_socketlength](https://github.com/maciverlab/Bigeye/tree/master/figs/fig03a_socket_length) writes a text file with calculated stat values (mean, standard deviation and sample size) ,creates two data files:
 
 1. List of eye socket lengths for 4 groups (finned, finned-transitional, digited, and digited-aquatic)
 2. List of orbit lengths for finned and digited tetrapods
