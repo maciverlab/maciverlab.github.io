@@ -8,28 +8,28 @@ categories: bigeye
 
 To better understand the correlation between the bony eye socket and soft 
 tissue dimensions of the eye we collected measurements in teleost fish. We provide these 
-morphological measurements in CSV files, named [“eye_orbit.csv”](https://github.com/maciverlab/bigeye/blob/master/figs/data/paleo/eye_orbit.csv)(for eye diameter) 
-and [“pupil_orbit.csv”](https://github.com/maciverlab/Bigeye/blob/master/figs/data/paleo/pupil_orbit.csv) (for pupil diameter).
+morphological measurements in CSV files, named [“eye_orbit.csv”](https://github.com/maciverlab/paleovision/blob/master/figs/data/paleo/eye_orbit.csv)(for eye diameter) 
+and [“pupil_orbit.csv”](https://github.com/maciverlab/paleovision/blob/master/figs/data/paleo/pupil_orbit.csv) (for pupil diameter).
 
 In oder to perform this statistical description with incorporation of phylogenetic 
 covariance, we also provide a tree-file for a species-level, time-calibrated fish 
-phylogeny from *Rabosky et al. 2013, Nature Communications* which is provided in the file [“fish.tre”](https://github.com/maciverlab/Bigeye/blob/master/figs/data/paleo/fish.tre).
+phylogeny from *Rabosky et al. 2013, Nature Communications* which is provided in the file [“fish.tre”](https://github.com/maciverlab/paleovision/blob/master/figs/data/paleo/fish.tre).
 
 ## Phylogenetic data for tetrapod analysis
 
-The basic topology of our tree is provided in the tree-file [“bigeye0527.tre”](https://github.com/maciverlab/Bigeye/blob/master/figs/data/paleo/bigeye0527.csv). For time-calibration,
-you will need the stratigraphic ranges of the taxa, which can be found in the CSV-file [“sampled.alt.csv”](https://github.com/maciverlab/Bigeye/blob/master/figs/data/paleo/sampled.alt.csv).
-A full set of 1000 trees is available in [“alt.equal.trees.tre”](https://github.com/maciverlab/Bigeye/blob/master/figs/data/paleo/alt.equal.trees.tre).
+The basic topology of our tree is provided in the tree-file [“bigeye0527.tre”](https://github.com/maciverlab/paleovision/blob/master/figs/data/paleo/bigeye0527.csv). For time-calibration,
+you will need the stratigraphic ranges of the taxa, which can be found in the CSV-file [“sampled.alt.csv”](https://github.com/maciverlab/paleovision/blob/master/figs/data/paleo/sampled.alt.csv).
+A full set of 1000 trees is available in [“alt.equal.trees.tre”](https://github.com/maciverlab/paleovision/blob/master/figs/data/paleo/alt.equal.trees.tre).
 
 ## Morphological data for tetrapod analysis
 
-Measurements of skull length and eye socket length in tetrapods are in the CSV-file [“bigeye0527.csv”](https://github.com/maciverlab/Bigeye/blob/master/figs/data/paleo/bigeye0527.csv),
+Measurements of skull length and eye socket length in tetrapods are in the CSV-file [“bigeye0527.csv”](https://github.com/maciverlab/paleovision/blob/master/figs/data/paleo/bigeye0527.csv),
 formatted for easier handling in R. Residuals of eye sockets on skull length, obtained from PGLS with 
-Brownian motion correlation structure are provided in [“BMres.csv”](https://github.com/maciverlab/Bigeye/blob/master/figs/data/paleo/BMres.csv). 
+Brownian motion correlation structure are provided in [“BMres.csv”](https://github.com/maciverlab/paleovision/blob/master/figs/data/paleo/BMres.csv). 
 
 ## Skull Images
 
-All the skull images with superimposed measurement indicator (as provided in the supplement) used in this study can be found in the folder [*skull_measurements*](https://github.com/maciverlab/Bigeye/tree/master/figs/data/paleo/skull_measurements). Moreover, raw skull images are also available in folder [*skulls_raw*](https://github.com/maciverlab/Bigeye/tree/master/figs/data/paleo/skulls_raw).
+All the skull images with superimposed measurement indicator (as provided in the supplement) used in this study can be found in the folder [*skull_measurements*](https://github.com/maciverlab/paleovision/tree/master/figs/data/paleo/skull_measurements). Moreover, raw skull images are also available in folder [*skulls_raw*](https://github.com/maciverlab/paleovision/tree/master/figs/data/paleo/skulls_raw).
 
 ## HydroLight
 
@@ -53,11 +53,11 @@ The data for sensitivity analysis on the effects of different optical water prop
 
 ## Images for contrast analysis
 
-From Google images various images of millipedes, centipedes and fresh water fish were found to calculate naturalistic contrast values. These images can be found in the folder [imagecontrast](https://github.com/maciverlab/Bigeye/tree/master/figs/data/vision/imagecontrast).
+From Google images various images of millipedes, centipedes and fresh water fish were found to calculate naturalistic contrast values. These images can be found in the folder [imagecontrast](https://github.com/maciverlab/paleovision/tree/master/figs/data/vision/imagecontrast).
 
 ## Literature
 
-Most of the cited literature except some books and monographs can be found in the [*cited_literature*](https://github.com/maciverlab/Bigeye/tree/master/cited_literature) folder. This folder contains password protected zip archives of all the cited literature. Please email [mreplicated@gmail.com](mailto: mreplicated@gmail.com) for access to the password to decrypt the archives. 
+Most of the cited literature except some books and monographs can be found in the [*cited_literature*](https://github.com/maciverlab/paleovision/tree/master/cited_literature) folder. This folder contains password protected zip archives of all the cited literature. Please email [mreplicated@gmail.com](mailto: mreplicated@gmail.com) for access to the password to decrypt the archives. 
 
 
 The publications are titled with format: first four letters of author last name last two digits of publication year and part of the title (e.g. MacIver, Malcolm A., Noura M. Sharabash, and Mark E. Nelson. "Prey-capture behavior in gymnotid electric fish: motion analysis and effects of water conductivity." *Journal of experimental biology* 204.3 (2001): 543-557.
