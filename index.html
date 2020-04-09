@@ -31,20 +31,15 @@ layout: default
         
         <tr>
             <td><div class="news">
-                  {% capture now %}{{'now' | date: '%s' | plus: 5184000 %}}{% endcapture %}
-                  <ul style="list-style-position:outside;padding:20px" >
-                    {% for new in site.data.news %}
-                      {% capture date %}{{new.date | date: '%s' | plus: 0 %}}{% endcapture %}
-                      {% if date > now %}
-                        <li>
-                          <span>
-                            {{ new.details }}
-                          </span>
-                        </li>
-                      {% endif %}
-                    {% endfor %}
-                  </ul>
-                </div></td>
+              <ul>
+                {% for new in site.data.news %}
+                  <li>
+                      {{ new.details }}
+                  </li>
+                {% endfor %}
+                </ul>
+            </div></td>
+            
             <td><div class="papers">
                   {% capture now %}{{'now' | date: '%s' | minus: 5184000 %}}{% endcapture %}
                   <ul style="list-style-position:outside;padding:20px" >
