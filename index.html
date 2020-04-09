@@ -69,17 +69,13 @@ layout: default
           <u>Happenings of the last two months. Updated 11/18/2019</u>
           <span style="display: block; margin-bottom: 1em"></span>
           <div class="news">
-              {% capture now %}{{'now' | date: '%s' | plus: 5184000%}}{% endcapture %}
               <ul style="list-style-position:outside;padding:20px" >
-                {% for new in site.data.news %}
-                  {% capture date %}{{new.date | date: '%s' | plus: 0 %}}{% endcapture %}
-                  {% if date > now %}
+                {% for new in site.recents.news %}
                     <li>
                       <span>
                         {{ new.details }}
                       </span>
                     </li>
-                  {% endif %}
                 {% endfor %}
               </ul>
           </div>
