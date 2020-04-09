@@ -106,29 +106,6 @@ h1 {
   margin: 0 0 0.75rem 0;
 }
 
-// Pattern styles
-.container {
-  display: table;
-  height: 100%;
-  width: 100%;
-}
-
-div {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  width: 50%;
-  padding: 1rem;
-}
-
-.left-half {
-  background: #ff9e2c;
-}
-
-.right-half {
-  background: #b6701e;
-}
-
 li > ul > li {
     margin-left: 1rem;
 }
