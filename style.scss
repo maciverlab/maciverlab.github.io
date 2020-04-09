@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.8rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -85,25 +85,6 @@ ul, ol, dl {
   font-size: 0.8rem;
   margin-top: 0;
   margin-bottom: 1rem;
-}
-
-// Pen-specific styles
-html, body, section, div {
-  height: 100%;
-}
-
-body { 
-  color: #fff;
-  font-family: sans-serif;
-  font-size: 1.25rem;
-  line-height: 150%;
-  text-align: center;
-  text-shadow: 0 2px 2px #b6701e;
-}
-
-h1 {
-  font-size: 1.75rem;
-  margin: 0 0 0.75rem 0;
 }
 
 li > ul > li {
@@ -383,8 +364,6 @@ tbody tr:nth-child(odd) th {
 .post {
   &-title {
     margin-bottom: .25rem;
-    font-size: 2.6rm;
-    text-transform: uppercase;
   }
   &-date {
     margin-bottom: 2rem;
@@ -417,6 +396,13 @@ tbody tr:nth-child(odd) th {
   a {
     color: #333;
   }
+}
+
+.profile-thumbnail {
+  object-fit: cover;
+  object-position: center top;
+  width: 200px;
+  height: 200px;
 }
 
 .highlight .hll { background-color: #ffffcc }
@@ -503,7 +489,16 @@ tbody tr:nth-child(odd) th {
 }
 
 .list-post-title .name {
-  font-size: 24px;
+  font-size: 18px;
+}
+
+.list-post-title {
+  color: black;
+}
+
+.list-detail {
+  font-size: 15px;
+  color: #838383;
 }
 
 .list-item a:hover, .list-post-title:hover .name, .list-post-title .name:hover {
