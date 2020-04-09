@@ -23,10 +23,43 @@ layout: default
         </tr>
         
         <tr>
-            <td style="text-align:center; font-size:60%;">
+            <td style="text-align:center; font-size:70%;">
                 Updates from the last two months. Updated 04/09/2020</td>
-            <td style="text-align:center; font-size:60%;">
+            <td style="text-align:center; font-size:70%;">
                 Recently published papers. Updated 04/09/2020</td>
+        </tr>
+        
+        <tr>
+            <td><div class="news">
+                  {% capture now %}{{'now' | date: '%s' | minus: 5184000 %}}{% endcapture %}
+                  <ul style="list-style-position:outside;padding:20px" >
+                    {% for new in site.data.news %}
+                      {% capture date %}{{new.date | date: '%s' | plus: 0 %}}{% endcapture %}
+                      {% if date > now %}
+                        <li>
+                          <span>
+                            {{ new.details }}
+                          </span>
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </div></td>
+            <td><div class="papers">
+                  {% capture now %}{{'now' | date: '%s' | minus: 5184000 %}}{% endcapture %}
+                  <ul style="list-style-position:outside;padding:20px" >
+                    {% for new in site.data.papers %}
+                      {% capture date %}{{new.date | date: '%s' | plus: 0 %}}{% endcapture %}
+                      {% if date > now %}
+                        <li>
+                          <span>
+                            {{ new.details }}
+                          </span>
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                </div></td>
         </tr>
     </table>
     
