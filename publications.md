@@ -7,7 +7,7 @@ permalink: /publications/
 
 For more information visit Malcolm's [Google Scholar profile](https://scholar.google.com/citations?user=9H9FROQAAAAJ&hl=en).
 
-A link to papers and related media are provided.
+We have tried to include links to all our papers as well as corresponding video explainer/outreach. While many of the PDFs should be avaialable, some of the articles may be behind the journal's paywall. If you cannot access one of our papers, let us know and we can send you the direct PDF. 
 
 <hr>
 
@@ -26,7 +26,7 @@ Under revision, eLife, 2020 ([Preprint](https://www.biorxiv.org/content/10.1101/
 
 _Intersection of motor volumes predicts the outcome of predator-prey interactions_<br>
 Kiran D. Bhattacharyya, David L. McLean, Malcolm A. MacIver<br>
-bioRxiv, 2019 ([Preprint](https://www.biorxiv.org/content/10.1101/626549v1.abstract)
+bioRxiv, 2019 ([Preprint](https://www.biorxiv.org/content/10.1101/626549v1.abstract))
 
 ### 2017
 
