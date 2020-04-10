@@ -32,14 +32,14 @@ layout: default
         <tr>
             <td><div class="news">
               {% capture now_year %}{{'now' | date: '%Y' | minus: 1 %}}{% endcapture %}
-              <ul style="list-style-position:outside;padding:20px;list-style-type:non;">
+              <ul style="list-style-position:outside;padding:20px;list-style-type:none;">
                 {% for new in site.data.news %}
-                  {% capture news_year %}{{new.date | slice: 0,4 %}}{% endcapture %}
-                  {% capture news_date %}{{new.date}}{% endcapture %}
-                  {% assign details = news_date | append: ": " | append: new.details %}
-                  <li><span>
-                      {{ details }}       
-                  </span></li>
+                  {% capture news_year %}{{new.date | slice: 0,4 | plus: 0%}}{% endcapture %}
+                  {% if news_year >= now_year %}
+                      {% capture news_date %}{{new.date}}{% endcapture %}
+                      {% assign details = news_date | append: ": " | append: new.details %}
+                      <li><span>{{ details }}</span></li>
+                  {% endif %}
                 {% endfor %}
                 </ul>
             </div></td>
