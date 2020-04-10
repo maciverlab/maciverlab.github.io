@@ -35,7 +35,7 @@ layout: default
               <ul style="list-style-position:outside;padding:20px">
                 {% for new in site.data.news %}
                   {% capture news_year %}{{new.date | date: '%s' | slice: 0,4 %}}{% endcapture %}
-                  {% capture news_date %}{{new.date | date: '%s'}}{% endcapture %}
+                  {% capture news_date %}{{new.date | date: '%s' %}}{% endcapture %}
                   {% assign details = news_date | append: ": " | append: new.details %}
                   <li><span>
                       {{ details }}       
