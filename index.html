@@ -4,7 +4,7 @@ layout: default
 
 <div class='container'>
     <header class="masthead text-center">
-     <br><br><br>
+     <br><br>
         <img class='img-responsive center-block' src="{{site.url}}/assets/panderichthys.gif" width="70%" height="70%" onmouseover="this.src='{{site.url}}/assets/tiktaalik.gif'" width="70%" height="70%" onmouseout="this.src='{{site.url}}/assets/panderichthys.gif'" width="70%" height="70%" />
      <br><br>
       <p> This is the website dedicated to all code, data, and other supporting materials<br>
@@ -39,7 +39,11 @@ layout: default
                   {% if news_year >= now_year %}
                       {% capture news_date %}{{new.date | date: "%Y-%m-%d" %}}{% endcapture %}
                       {% assign details = {{news_date | date: "%b %d, %Y"}} | append: ": " | append: new.details %}
-                      <li><span>{{ details }}</span></li>
+                      <li><b>Sense organ control in moths to moles is a gamble on information</b>
+                          C. Chen, T. D. Murphey, M. A. MacIver
+                          Under revision <i>eLife</i>
+                          <a style="color:#C4D3F2" href="https://robotics.sciencemag.org/content/4/34/eaax4316">Preprint available on BioRxiv</a>
+                      </li>
                   {% endif %}
                 {% endfor %}
                 </ul>
@@ -47,15 +51,8 @@ layout: default
             
             <td><div class="papers">
                   {% capture now %}{{'now' | date: '%s' | minus: 5184000 %}}{% endcapture %}
-                  <ul style="list-style-position:outside;padding:20px" >
-                    {% for new in site.data.papers %}
-                      {% capture date %}{{new.date | date: '%s' | plus: 0 %}}{% endcapture %}
-                      {% if date > now %}
-                        <li>
-                          <span>
-                            {{ new.details }}
-                          </span>
-                        </li>
+                  <ul style="list-style-position:outside;padding:20px;list-style-type:none;" 
+                        <li><span>{{ new.details }}</span></li>
                       {% endif %}
                     {% endfor %}
                   </ul>
@@ -79,29 +76,6 @@ layout: default
           </div>
         </div >
       </div>
-   
-    <div class="w3-container" style="   background: #f0f8ff; padding: 25px; border-radius:10px; border: 1px solid #5d8aa8">
-            <div style="text-align:left">
-              <h3> Recent Papers </h3>
-              <u> Recently published papers. Updated 11/18/2019</u>
-              <span style="display: block; margin-bottom: 1em"></span>
-              <div class="papers">
-                  {% capture now %}{{'now' | date: '%s' | minus: 5184000 %}}{% endcapture %}
-                  <ul style="list-style-position:outside;padding:20px" >
-                    {% for new in site.data.papers %}
-                      {% capture date %}{{new.date | date: '%s' | plus: 0 %}}{% endcapture %}
-                      {% if date > now %}
-                        <li>
-                          <span>
-                            {{ new.details }}
-                          </span>
-                        </li>
-                      {% endif %}
-                    {% endfor %}
-                  </ul>
-              </div>
-            </div >
-          </div>
 
     <span style="display: block; margin-bottom: 3em"></span>
       
