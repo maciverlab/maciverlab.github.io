@@ -24,7 +24,7 @@ layout: default
         
         <tr>
             <td style="text-align:center; font-size:70%;">
-                Updates from the last two months. Updated 04/09/2020</td>
+                Updates from the last year. Updated 04/09/2020</td>
             <td style="text-align:center; font-size:70%;">
                 Recently published papers. Updated 04/09/2020</td>
         </tr>
@@ -32,7 +32,7 @@ layout: default
         <tr>
             <td><div class="news">
               {% capture now_year %}{{'now' | date: '%Y' | minus: 1 %}}{% endcapture %}
-              <ul style="list-style-position:outside;padding:20px">
+              <ul style="list-style-position:outside;padding:20px;list-style-type:non;">
                 {% for new in site.data.news %}
                   {% capture news_year %}{{new.date | slice: 0,4 %}}{% endcapture %}
                   {% capture news_date %}{{new.date}}{% endcapture %}
