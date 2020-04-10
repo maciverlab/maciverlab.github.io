@@ -46,18 +46,8 @@ layout: default
             </div></td>
             
             <td><div class="papers">
-                  {% capture now %}{{'now' | date: '%s' | minus: 5184000 %}}{% endcapture %}
-                  <ul style="list-style-position:outside;padding:20px" >
-                    {% for new in site.data.papers %}
-                      {% capture date %}{{new.date | date: '%s' | plus: 0 %}}{% endcapture %}
-                      {% if date > now %}
-                        <li>
-                          <span>
-                            {{ new.details }}
-                          </span>
-                        </li>
-                      {% endif %}
-                    {% endfor %}
+                  <ul style="list-style-position:outside;padding:20px;list-style-type:none;" >
+                        <li> blah</li>
                   </ul>
                 </div></td>
         </tr>
