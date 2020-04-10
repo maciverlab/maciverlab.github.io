@@ -24,7 +24,7 @@ layout: default
         
         <tr>
             <td style="text-align:center; font-size:70%;">
-                Updates from the last year 2. Updated 04/09/2020</td>
+                Updates from the last year. Updated April, 2020</td>
             <td style="text-align:center; font-size:70%;">
                 Recently published papers. Updated 04/09/2020</td>
         </tr>
@@ -37,7 +37,7 @@ layout: default
                   {% capture news_year %}{{new.date | slice: 0,4 | plus: 0%}}{% endcapture %}
                   {% if news_year >= now_year %}
                       {% capture news_date %}{{new.date | date: "%Y-%m-%d" %}}{% endcapture %}
-                      {% assign details = {{news_date | date: "%Y"}} | append: ": " | append: new.details %}
+                      {% assign details = {{news_date | date: "%b %d, %Y"}} | append: ": " | append: new.details %}
                       <li><span>{{ details }}</span></li>
                   {% endif %}
                 {% endfor %}
