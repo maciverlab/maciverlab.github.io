@@ -39,22 +39,18 @@ layout: default
                   {% if news_year >= now_year %}
                       {% capture news_date %}{{new.date | date: "%Y-%m-%d" %}}{% endcapture %}
                       {% assign details = {{news_date | date: "%b %d, %Y"}} | append: ": " | append: new.details %}
-                      <li><b>Sense organ control in moths to moles is a gamble on information</b>
-                          C. Chen, T. D. Murphey, M. A. MacIver
-                          Under revision <i>eLife</i>
-                          <a style="color:#C4D3F2" href="https://robotics.sciencemag.org/content/4/34/eaax4316">Preprint available on BioRxiv</a>
-                      </li>
+                      <li><span> {{ details }} </span></li>
                   {% endif %}
                 {% endfor %}
                 </ul>
             </div></td>
             
             <td><div class="papers">
-                  {% capture now %}{{'now' | date: '%s' | minus: 5184000 %}}{% endcapture %}
                   <ul style="list-style-position:outside;padding:20px;list-style-type:none;" 
-                        <li><span>{{ new.details }}</span></li>
-                      {% endif %}
-                    {% endfor %}
+                        <li><span><b>Sense organ control in moths to moles is a gamble on information</b>
+                          C. Chen, T. D. Murphey, M. A. MacIver
+                          Under revision <i>eLife</i>
+                          <a style="color:#C4D3F2" href="https://robotics.sciencemag.org/content/4/34/eaax4316">Preprint available on BioRxiv</a></span></li>
                   </ul>
                 </div></td>
         </tr>
