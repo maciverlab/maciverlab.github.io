@@ -37,8 +37,7 @@ layout: default
                   {% capture news_year %}{{new.date | slice: 0,4 | plus: 0%}}{% endcapture %}
                   {% if news_year >= now_year %}
                       {% capture news_date %}{{new.date | date: "%Y-%m-%d" %}}{% endcapture %}
-                      {% capture formatted_news_date %}{{news_date | date: "%b %d, %Y" %}}{ % endcapture %}
-                      {% assign details = formatted_news_date | append: ": " | append: new.details %}
+                      {% assign details = news_date | append: ": " | append: new.details %}
                       <li><span>{{ details }}</span></li>
                   {% endif %}
                 {% endfor %}
