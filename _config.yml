@@ -20,8 +20,8 @@ highlighter:        rouge
 
 # Navigation
 nav:
-  - name:           "HOME"
-    href:           "/"
+  #- name:           "HOME"
+  #  href:           "/"
   - name:           "ABOUT"
     href:           "/about"
   - name:           "PUBLICATIONS"
@@ -32,10 +32,12 @@ nav:
     href:           "/research"
   - name:           "RESOURCES"
     href:           "/resources"
-  - name:           "PROJECTS"
-    href:           "/projects"
-  - name:           "DATA"
-    href:           "/data"
+  - name:           "MEDIA"
+    href:           "/media" 
+  #- name:           "PROJECTS"
+  #  href:           "/projects"
+  #- name:           "DATA"
+  #  href:           "/data"
   #- name:           "RESEARCH"
   #  href:           "/research"
 
