@@ -10,15 +10,15 @@ permalink: /media/
 
 <table class="media table-spacing">        
         <tr>
-            <td width="40%">
+            <td style="text-align:center;" width="40%">
                     Ugurcan's talk title: <i> How visual sensory ecology affects the utility of planning</i>
                 at Cognitive Computational Neursocience Conference in Philedelphia on September 6, 2018.</td>
-            <td width="40%">
+            <td style="text-align:center;" width="40%">
                     Malcolm's talk titled: <i>Terrestrial sensory ecology provides a selective benefit to planning.</i>
                     at the 
                     <a href="https://www.cosyne.org/c/index.php?title=Workshops2019_naturalistic_decisions">COSYNE Workshop</a> 
                     in Cascais, Portugal on March 5, 2019.</td>
-            <td width="20%">
+            <td style="text-align:center;" width="20%">
                 Malcolm's podcast interview on Sean Caroll's Mindscape: 
                     Sensing, Consciousness, and the Imagination</td>
         </tr>       
