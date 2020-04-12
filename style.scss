@@ -283,7 +283,7 @@ table.media {
   padding: .25rem .5rem;
   width: 100%;
   font-size: 100%;
-  border-spacing: 1em 1em;
+  border-spacing: 1em 0px;
   border: 1px solid #FFFFFF;
 }
 
@@ -292,7 +292,7 @@ table.media td {
   border: 1em solid #FFFFFF;
   font-size: 100%;
   text-align: justify;
-  border-spacing: 1em 0.5em;
+  border-spacing: 1em 0px;
 }
 
 table.recent {
@@ -319,7 +319,7 @@ table.recent td {
 }
 
 .table-spacing{
-   border-spacing:2em 1em;
+   border-spacing:2em 0px;
 }
 
 .lead {
