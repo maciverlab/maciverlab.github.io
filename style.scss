@@ -280,6 +280,7 @@ table.general tbody tr:nth-child(odd) th {
 
 table.media {
   border-collapse: separate;
+  border-style: hidden;
   padding: .25rem .5rem;
   width: 100%;
   font-size: 100%;
