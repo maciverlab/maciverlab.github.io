@@ -18,7 +18,10 @@ permalink: /media/
         </tr>       
         <tr>
             <td> ... </td>
-            <td> <<iframe src="https://art19.com/shows/sean-carrolls-mindscape/episodes/e1b941fa-0a10-4f73-8a5a-1d916290d413/embed?theme=dark-blue" style="width: 100%; height: 200px; border: 0 none;" scrolling="no"></iframe>
+            <td> 
+                    {% raw %}
+                    <iframe src="https://art19.com/shows/sean-carrolls-mindscape/episodes/e1b941fa-0a10-4f73-8a5a-1d916290d413/embed?theme=dark-blue" width="100%" frameborder="no" border="0" marginwidth="0" scrolling="no"></iframe>
+                    {% endraw %}
             </td>
         </tr>
 </table>
