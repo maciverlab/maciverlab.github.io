@@ -15,9 +15,8 @@ permalink: /media/
                 at Cognitive Computational Neursocience Conference in Philedelphia on September 6, 2018.</td>
             <td width="40%">
                     Malcolm's talk titled: <i>Terrestrial sensory ecology provides a selective benefit to planning.</i>
-                    at the COSYNE Workshop 
-                    <a href="https://www.cosyne.org/c/index.php?title=Workshops2019_naturalistic_decisions">
-                    'Beyond trial-based choice: decision-making in naturalistic and temporally extended environments'</a> 
+                    at the 
+                    <a href="https://www.cosyne.org/c/index.php?title=Workshops2019_naturalistic_decisions">COSYNE Workshop</a> 
                     in Cascais, Portugal on March 5, 2019.</td>
             <td width="20%">
                 Malcolm's podcast interview on Sean Caroll's Mindscape: 
