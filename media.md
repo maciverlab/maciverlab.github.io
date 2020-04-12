@@ -8,7 +8,7 @@ permalink: /media/
 
 
 
-<table class="media table-spacing" style="white-space:nowrap;>        
+<table class="media" style="white-space:nowrap;">        
         <tr>
             <td width="38%">
                     Ugurcan's talk title: <i> How visual sensory ecology affects the utility of planning</i>
@@ -18,7 +18,7 @@ permalink: /media/
                     at the 
                     <a href="https://www.cosyne.org/c/index.php?title=Workshops2019_naturalistic_decisions">COSYNE Workshop</a> 
                     in Cascais, Portugal on March 5, 2019.</td>
-            <td width="24%">
+            <td width="20%">
                 Malcolm's podcast interview on Sean Caroll's Mindscape: 
                     Sensing, Consciousness, and the Imagination</td>
         </tr>       
