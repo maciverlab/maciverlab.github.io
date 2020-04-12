@@ -24,9 +24,12 @@ permalink: /media/
                     Sensing, Consciousness, and the Imagination</td>
         </tr>       
         <tr>
-            <td> ... </td>
             <td> {% raw %}
-                 <iframe width="280" height="258" src="https://www.youtube.com/embed/Q3H-5Z3-6gM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/yKILeeI_9n0?start=22" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                {% endraw %}
+            </td>
+            <td> {% raw %}
+                 <iframe width="50%" height="50%" src="https://www.youtube.com/embed/Q3H-5Z3-6gM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                  {% endraw %}
             </td>
             <td> 
