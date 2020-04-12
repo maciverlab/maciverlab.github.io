@@ -288,10 +288,23 @@ table.media {
 
 table.media td {
   //padding: .5rem .5rem;
-  border: 1em 0.25em solid #FFFFFF;
+  border: 1em 0.5em solid #FFFFFF;
   font-size: 105%;
   text-align: justify;
   border-spacing: 1em 0px;
+}
+
+table.media tr:first-child td {
+  border-top: 0;
+}
+table.media tr td:first-child {
+  border-left: 0;
+}
+table.media tr:last-child td {
+  border-bottom: 0;
+}
+table.media tr td:last-child {
+  border-right: 0;
 }
 
 table.recent {
