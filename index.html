@@ -36,7 +36,7 @@ layout: default
         </tr>
         
         <tr>
-            <td><div class="news">
+            <td valign="top"><div class="news">
               {% capture now_year %}{{'now' | date: '%Y' | minus: 1 %}}{% endcapture %}
               <ul style="list-style-position:outside;padding:20px;list-style-type:none;">
                 {% for new in site.data.news %}
@@ -50,7 +50,7 @@ layout: default
                 </ul>
             </div></td>
             
-            <td><div class="papers">
+            <td valign="top"><div class="papers">
                   <ul style="list-style-position:outside;padding:20px;list-style-type:none;" 
                         <li><span><b>Sense organ control in moths to moles is a gamble on information</b>
                           C. Chen, T. D. Murphey, M. A. MacIver.
