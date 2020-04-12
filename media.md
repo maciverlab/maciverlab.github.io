@@ -8,7 +8,7 @@ permalink: /media/
 
 
 
-<table class="media table-spacing">        
+<table class="media table-spacing" style="white-space:nowrap;>        
         <tr>
             <td width="38%">
                     Ugurcan's talk title: <i> How visual sensory ecology affects the utility of planning</i>
