@@ -26,9 +26,7 @@ permalink: /media/
         <tr>
             <td> ... </td>
             <td> {% raw %}
-                 <div class="videoWrapper">
-                        <iframe control muted width="775" height="436" src="https://www.youtube.com/watch?v=Q3H-5Z3-6gM&feature=youtu.be"  frameborder="no" border="0" marginwidth="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                 </div>
+                 <iframe width="280" height="258" src="https://www.youtube.com/embed/Q3H-5Z3-6gM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                  {% endraw %}
             </td>
             <td> 
