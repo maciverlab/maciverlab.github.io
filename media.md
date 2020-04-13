@@ -5,9 +5,12 @@ permalink: /media/
 <br><br>
 
 ### Algorithmic and Neural Basis of Decision Making
+<br>
+<div class="iframe-wrapper">
+<iframe src="https://maciver-lab.github.io/plangame/">
+</div>
 
-
-
+<br><br>
 <table class="media">        
         <tr>
             <td valign="top" width="38%">
