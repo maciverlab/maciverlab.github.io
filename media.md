@@ -6,11 +6,14 @@ permalink: /media/
 
 ### Algorithmic and Neural Basis of Decision Making
 <br>
+{% raw %}
 <div class="iframe-wrapper">
-<iframe src="https://maciver-lab.github.io/plangame/">
+<iframe width="500px" height="500px" src="https://maciver-lab.github.io/plangame/" frameborder="no" border="0" marginwidth="0" scrolling="no"></iframe>
 </div>
+{% endraw %}
 
 <br><br>
+
 <table class="media">        
         <tr>
             <td valign="top" width="38%">
