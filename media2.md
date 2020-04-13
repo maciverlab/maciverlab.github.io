@@ -1,7 +1,4 @@
----
-title: Media
-permalink: /media/
----
+
 <br><br>
 
 ### Algorithmic and Neural Basis of Decision Making 
