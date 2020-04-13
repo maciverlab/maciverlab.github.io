@@ -5,9 +5,8 @@ permalink: /media/
 <br><br>
 
 ### Algorithmic and Neural Basis of Decision Making 
-<br>
 
-A game that illustrates some key ideas in our new work [_Spatial planning with long visual range benefits escape from visual predators in complex naturalistic environments_]({{ site.baseurl }}{% link _posts/2020-04-13-planning.md %}). German Espinosa created the game and Alex Lai made the artwork for it.  
+A game that illustrates some key ideas in our new work _Spatial planning with long visual range benefits escape from visual predators in complex naturalistic environments_. German Espinosa created the game and Alex Lai made the artwork for it.  
 
 Some key findings of the paper is that a combination of visual range and a certain level of habitat complexity&mdash;only occurring on land&mdash;creates a gradient of benefit for the evolution of brain circuitry to plan. Open water, coral reef, and jungle all favor reactive mode decision making rather than planning. 
 
