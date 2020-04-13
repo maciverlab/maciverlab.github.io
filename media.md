@@ -8,7 +8,7 @@ permalink: /media/
 <br>
 {% raw %}
 <div class="wrapper" style="background-color:lightblue">
-<iframe width="700px" height="700px" src="https://maciver-lab.github.io/plangame/" frameborder="0" border="0" marginwidth="0" scrolling="no" align="middle"></iframe>
+<iframe width="700px" height="700px" src="https://maciver-lab.github.io/plangame/" frameborder="0" border="0" marginwidth="0" scrolling="no" align="middle" marginwidth="0" marginheight="0" hspace="0" vspace="0"></iframe>
 </div>
 {% endraw %}
 
