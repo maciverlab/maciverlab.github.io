@@ -8,7 +8,7 @@ description:        "this is the page for MacIver Lab, we are a neuroethology la
 
 # URL
 url:                http://maciverlab.github.io
-baseurl:            /
+baseurl:            http://maciverlab.github.io
 #baseurl:            "" #For Root Domain
 permalink:          /:title.html
 
