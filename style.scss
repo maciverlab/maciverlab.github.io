@@ -466,6 +466,8 @@ table.recent td {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     padding-top: 25px;
+    padding-right: 0;
+    padding-left: 0;
     height: 0;
 }
 .wrapper iframe {
