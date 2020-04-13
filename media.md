@@ -4,7 +4,7 @@ permalink: /media/
 ---
 <br><br>
 
-### Algorithmic and Neural Basis of Decision Making 5
+### Algorithmic and Neural Basis of Decision Making 6
 <br>
 {% raw %}
 <div class="resp-container" style="background-color:lightblue">
