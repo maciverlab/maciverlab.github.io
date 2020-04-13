@@ -465,8 +465,9 @@ table.recent td {
 .resp-container {
    position: relative;
     overflow: hidden;
-    padding-top: 60%;
+    padding-bottom: 60%;
     position: relative;
+    heigh: 0;
 }
 .resp-iframe {
     position: absolute;
@@ -474,7 +475,7 @@ table.recent td {
     left: 0;
     width: 100%;
     height: 100%;
-    border: 1em solid white;
+    background: #FFFFFF
 }
 
 .box{
