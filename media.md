@@ -33,18 +33,14 @@ May the odds be ever in your favor - Suzanne Collins, The Hunger Games
                     Sensing, Consciousness, and the Imagination</td>
         </tr>       
         <tr>
-            <td> {% raw %}
-                <iframe width="100%" height="200px" src="https://www.youtube.com/embed/yKILeeI_9n0?start=22" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                {% endraw %}
-            </td>
-            <td> {% raw %}
-                 <iframe width="100%" height="200px" src="https://www.youtube.com/embed/Q3H-5Z3-6gM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                 {% endraw %}
+            <td>
+                <iframe width="100%" height="200px" src="https://www.youtube.com/embed/yKILeeI_9n0?start=22" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
             </td>
             <td> 
-                    {% raw %}
+                 <iframe width="100%" height="200px" src="https://www.youtube.com/embed/Q3H-5Z3-6gM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>             
+            </td>
+            <td>       
                     <iframe src="https://art19.com/shows/sean-carrolls-mindscape/episodes/e1b941fa-0a10-4f73-8a5a-1d916290d413/embed?theme=dark-blue" width="100%" height="200px" frameborder="no" border="0" marginwidth="0" scrolling="yes"></iframe>
-                    {% endraw %}
             </td>
         </tr>
 </table>
