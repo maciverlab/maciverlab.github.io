@@ -14,12 +14,7 @@ You are the prey. You move using the arrow keys on your keyboard, each key press
 
 May the odds be ever in your favor - Suzanne Collins, The Hunger Games
 
-<br>
-{% raw %}
-<div class="resp-container">
-<iframe class="resp-iframe" allowtransparency="true" src="https://maciver-lab.github.io/plangame/" frameborder="0" border="0" marginwidth="0" scrolling="no" align="middle" marginwidth="0" marginheight="0" hspace="0" vspace="0" allowfullscreen></iframe>
-</div>
-{% endraw %}
+
 
 <br><br>
 
