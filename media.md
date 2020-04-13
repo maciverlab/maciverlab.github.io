@@ -28,7 +28,7 @@ May the odds be ever in your favor - Suzanne Collins, The Hunger Games
                     at the 
                     <a href="https://www.cosyne.org/c/index.php?title=Workshops2019_naturalistic_decisions">COSYNE Workshop</a> 
                     in Cascais, Portugal on March 5, 2019.</td>
-            <td valign="top" width="24%">
+            <td valign="top" width="22%">
                 Malcolm's podcast interview on Sean Caroll's Mindscape: 
                     Sensing, Consciousness, and the Imagination</td>
         </tr>       
