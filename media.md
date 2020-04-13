@@ -4,11 +4,11 @@ permalink: /media/
 ---
 <br><br>
 
-### Algorithmic and Neural Basis of Decision Making 2
+### Algorithmic and Neural Basis of Decision Making 3
 <br>
 {% raw %}
-<div class="wrapper" style="background-color:lightblue">
-<iframe width="100%" height="100%" src="https://maciver-lab.github.io/plangame/" frameborder="0" border="0" marginwidth="0" scrolling="no" align="middle" marginwidth="0" marginheight="0" hspace="0" vspace="0" allowfullscreen></iframe>
+<div class="resp-container" style="background-color:lightblue">
+<iframe class="resp-iframe" src="https://maciver-lab.github.io/plangame/" frameborder="0" border="0" marginwidth="0" scrolling="no" align="middle" marginwidth="0" marginheight="0" hspace="0" vspace="0" allowfullscreen></iframe>
 </div>
 {% endraw %}
 
