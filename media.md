@@ -13,9 +13,7 @@ Some key findings of the paper is that a combination of visual range and a certa
 
 You are the prey. You move using the arrow keys on your keyboard, each key press moves you through the environment with some speed (if you stop pressing a key, the prey will stop). In the _Easy_ mode, despite having a visual range you will be able to see a silhouette of the predator. In the _Natural_ mode, the predator is only able to see you when you see it. In the _Hard_ mode and in the _Open Waters_ environment, the predator always sees you. If the predator sees you it will aggresively pursue you. The game is over when you reach the goal position (middle-top) or when you get eaten. 
 
-<div class="blockquote">
-        May the odds be ever in your favor - Suzanne Collins, The Hunger Games
-</div>
+May the odds be ever in your favor - Suzanne Collins, The Hunger Games
 
 <br>
 {% raw %}
