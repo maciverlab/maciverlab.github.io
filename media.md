@@ -8,8 +8,7 @@ permalink: /media/
 <br>
 {% raw %}
 <div class="resp-container" style="background-color:lightblue">
-<iframe class="resp-iframe" src="https://maciver-lab.github.io/plangame/" frameborder="1" border="1em solid white" marginwidth="0" scrolling="no" align="middle" marginwidth="0" marginheight="0" hspace="0" vspace="0" allowfullscreen></iframe>
-        <div class="box white" align="left"></div>
+<iframe class="resp-iframe" allowtransparency="true" style="background: #FFFFFF;" src="https://maciver-lab.github.io/plangame/" frameborder="1" border="1em solid white" marginwidth="0" scrolling="no" align="middle" marginwidth="0" marginheight="0" hspace="0" vspace="0" allowfullscreen></iframe>
 </div>
 {% endraw %}
 
