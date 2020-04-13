@@ -4,7 +4,19 @@ permalink: /media/
 ---
 <br><br>
 
-### Algorithmic and Neural Basis of Decision Making 7
+### Algorithmic and Neural Basis of Decision Making 
+<br>
+
+A game that illustrates some key ideas in our new work [_Spatial planning with long visual range benefits escape from visual predators in complex naturalistic environments_]({{ site.baseurl }}{% link _posts/2020-04-13-planning.md %}). German Espinosa created the game and Alex Lai made the artwork for it.  
+
+Some key findings of the paper is that a combination of visual range and a certain level of habitat complexity&mdash;only occurring on land&mdash;creates a gradient of benefit for the evolution of brain circuitry to plan. Open water, coral reef, and jungle all favor reactive mode decision making rather than planning. 
+
+You are the prey. You move using the arrow keys on your keyboard, each key press moves you through the environment with some speed (if you stop pressing a key, the prey will stop). In the _Easy_ mode, despite having a visual range you will be able to see a silhouette of the predator. In the _Natural_ mode, the predator is only able to see you when you see it. In the _Hard_ mode and in the _Open Waters_ environment, the predator always sees you. If the predator sees you it will aggresively pursue you. The game is over when you reach the goal position (middle-top) or when you get eaten. 
+
+<div class="blockquote">
+        May the odds be ever in your favor - Suzanne Collins, The Hunger Games
+</div>
+
 <br>
 {% raw %}
 <div class="resp-container" style="background-color:lightblue">
