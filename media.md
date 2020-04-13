@@ -4,7 +4,7 @@ permalink: /media/
 ---
 <br><br>
 
-### Algorithmic and Neural Basis of Decision Making 
+### Algorithmic and Neural Basis of Decision Making 2
 
 A game that illustrates some key ideas in our new work _Spatial planning with long visual range benefits escape from visual predators in complex naturalistic environments_. German Espinosa created the game and Alex Lai made the artwork for it.  
 
@@ -16,7 +16,7 @@ May the odds be ever in your favor - Suzanne Collins, The Hunger Games
 
 <br>
 {% raw %}
-<div class="resp-container" style="background-color:lightblue">
+<div class="resp-container">
 <iframe class="resp-iframe" allowtransparency="true" src="https://maciver-lab.github.io/plangame/" frameborder="0" border="0" marginwidth="0" scrolling="no" align="middle" marginwidth="0" marginheight="0" hspace="0" vspace="0" allowfullscreen></iframe>
 </div>
 {% endraw %}
