@@ -462,29 +462,6 @@ table.recent td {
   height: 200px;
 }
 
-.resp-container {
-    overflow: hidden;
-    padding-bottom: 60%;
-    position: relative;
-    //height: 0;
-}
-.resp-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.box{
-	width:100px;
-	height:100px;
-}
-
-.white{
-	background: white;
-}
-
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
