@@ -4,7 +4,7 @@ permalink: /media/
 ---
 <br><br>
 
-### Algorithmic and Neural Basis of Decision Making 2
+### Algorithmic and Neural Basis of Decision Making 
 
 A game that illustrates some key ideas in our new work _Spatial planning with long visual range benefits escape from visual predators in complex naturalistic environments_. German Espinosa created the game and Alex Lai made the artwork for it.  
 
