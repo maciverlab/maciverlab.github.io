@@ -27,7 +27,7 @@ permalink: /people/
            <p class="list-post-title">
                {% if profile.avatar %}
                {% else %}
-                   <img class="profile-thumbnail" src="{{site.baseurl}}/images/people/default.png"></img>
+                   <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/default.png"></a>
                {% endif %}
          </p></div>
      {% endif %}
@@ -39,7 +39,7 @@ permalink: /people/
 {% endfor %}
 
 <div class="pos_header">
- <h3>Alumni 3</h3></div>
+ <h3>Alumni 4</h3></div>
 
 | Name | Position | Current Position |
 | :------------- |:-------------| :-----------|
