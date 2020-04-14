@@ -26,11 +26,11 @@ permalink: /people/
          <div class="list-item-people">
            <p class="list-post-title">
                {% if profile.avatar %}
-                   <a href="={{ site.baseurl }}/{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
+                   <a href="={{ site.url }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
                {% else %}
                    <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/default.png"></a>
                {% endif %}
-               <a class="name" href="{{ site.baseurl }}/{{ profile.url }}">{{ profile.name }}</a>
+               <a class="name" href="{{ site.url }}{{ profile.url }}">{{ profile.name }}</a>
          </p></div>
      {% endif %}
   {% endfor %}
@@ -39,7 +39,7 @@ permalink: /people/
 {% endfor %}
 
 <div class="pos_header">
- <h3>Alumni 3</h3></div>
+ <h3>Alumni 4</h3></div>
  
  <br>
 
