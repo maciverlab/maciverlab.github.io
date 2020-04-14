@@ -26,9 +26,11 @@ permalink: /people/
          <div class="list-item-people">
            <p class="list-post-title">
                {% if profile.avatar %}
+                   <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}"></a>
                {% else %}
                    <a href="{{ site.baseurl }}{{ profile.url }}"><img class="profile-thumbnail" src="{{site.baseurl}}/images/people/default.png"></a>
                {% endif %}
+               <a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a>
          </p></div>
      {% endif %}
   {% endfor %}
