@@ -17,7 +17,8 @@ permalink: /people/
     <td>Brain Corp</th>
   </tr>
  </table>
-
+| Name | Position | Current Position |
+| :------------- |:-------------| :-----------|
 | Jordan Haskel | Master of Science in Robotics Student | Brain Corp |
 | Chen Chen | Graduate Student | Apple Computer |
 | Kiran Bhattacharyya | Graduate Student (2013 - 2019) | Intuitive Surgical |
