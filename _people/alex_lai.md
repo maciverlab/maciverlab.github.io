@@ -1,7 +1,7 @@
 ---
 name: Alex Lai
 position: gradstudent
-avatar: 
+avatar: alex-lai.jpg
 twitter:
 joined: 2019
 ---
