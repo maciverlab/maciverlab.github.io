@@ -259,7 +259,7 @@ img {
   border-radius: 5px;
 }
 
-table.general {
+table {
   margin-bottom: 1rem;
   width: 100%;
   font-size: 70%;
@@ -267,14 +267,14 @@ table.general {
   border-collapse: collapse;
 }
 
-table.general td, table.general th {
+table td, table th {
   padding: .25rem .5rem;
   border: 1px solid #e5e5e5;
   font-size: 140%;
 }
 
-table.general tbody tr:nth-child(odd) td,
-table.general tbody tr:nth-child(odd) th {
+table tbody tr:nth-child(odd) td,
+table tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
