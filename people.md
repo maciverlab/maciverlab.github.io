@@ -3,22 +3,12 @@ title: People
 permalink: /people/
 ---
 
-<br>
+<br><br>
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Position</th> 
-    <th>Current Position</th>
-  </tr>
-   <tr>
-    <td>Jordan Haskel</td>
-    <td>Master of Science in Robotics Student</td> 
-    <td>Brain Corp</td>
-  </tr>
- </table>
  
- 
+{% assign people_sorted = site.people | sort: 'joined' %}
+{% assign role_array = "pi|postdoc|gradstudent|researchstaff|visiting|others|alumni" | split: "|" %}
+
 | Name | Position | Current Position |
 | :------------- |:-------------| :-----------|
 | Jordan Haskel | Master of Science in Robotics Student | Brain Corp |
