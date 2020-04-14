@@ -87,6 +87,6 @@ collections:
   projdata:
     output: true
     permalink: /data/:categories/:title.html
-#  people:
-#    output: true
-#    permalink: /people/:title/index.html
+  people:
+    output: true
+    permalink: /people/:title/index.html
