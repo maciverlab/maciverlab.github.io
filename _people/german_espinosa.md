@@ -1,7 +1,7 @@
 ---
 name: German Espinosa
 position: gradstudent
-avatar: 
+avatar: german-espinosa.jpg
 twitter:
 joined: 2018
 ---
