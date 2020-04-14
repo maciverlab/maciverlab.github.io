@@ -12,9 +12,9 @@ permalink: /people/
     <th>Current Position</th>
   </tr>
    <tr>
-    <th>Jordan Haskel</th>
-    <th>Master of Science in Robotics Student</th> 
-    <th>Brain Corp</th>
+    <td>Jordan Haskel</th>
+    <td>Master of Science in Robotics Student</th> 
+    <td>Brain Corp</th>
   </tr>
  </table>
 
