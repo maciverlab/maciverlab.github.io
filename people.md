@@ -27,20 +27,19 @@ permalink: /people/
            <p class="list-post-title">
                {% if profile.avatar %}
                {% else %}
-                   <img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg">
+                   <img class="profile-thumbnail" src={{ site.url }}/assets/default_picture.png>
                {% endif %}
          </p></div>
      {% endif %}
   {% endfor %}
 </div>
 
- <hr>
+<hr>
 
 {% endfor %}
 
 <div class="pos_header">
  <h3>Alumni</h3></div>
-<hr>
 
 | Name | Position | Current Position |
 | :------------- |:-------------| :-----------|
