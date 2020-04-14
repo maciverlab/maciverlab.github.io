@@ -89,4 +89,4 @@ collections:
     permalink: /data/:categories/:title.html
   people:
     output: true
-    permalink: /people/:name/:name.html
+    permalink: /people/:name/index.html
