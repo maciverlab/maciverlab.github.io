@@ -259,7 +259,7 @@ img {
   border-radius: 5px;
 }
 
-table.general {
+table {
   margin-bottom: 1rem;
   width: 100%;
   font-size: 70%;
@@ -267,14 +267,14 @@ table.general {
   border-collapse: collapse;
 }
 
-table.general td, table.general th {
+table td, table th {
   padding: .25rem .5rem;
   border: 1px solid #e5e5e5;
   font-size: 140%;
 }
 
-table.general tbody tr:nth-child(odd) td,
-table.general tbody tr:nth-child(odd) th {
+table tbody tr:nth-child(odd) td,
+table tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
@@ -283,12 +283,13 @@ table.media {
   //padding: .25rem .5rem;
   width: 100%;
   font-size: 100%;
+  border: 1px solid #FFFFFF;
 }
 
 table.media td {
   padding: .25rem 1rem .25rem 0rem;
   border-right: 1em solid white;
-  font-size: 105%;
+  //font-size: 100%;
   text-align: justify;
   //border-spacing: 2em 0.5em;
 }
@@ -307,6 +308,11 @@ table.media tr td:last-child {
 }
 table.media td:last-child {
   border-right: 0;   
+}
+
+table.media tbody tr:nth-child(odd) td,
+table.media tbody tr:nth-child(odd) th {
+  background-color: white;
 }
 
 table.recent {
@@ -330,6 +336,11 @@ table.recent td {
   border: 1px solid #FFFFFF;
   font-size: 100%;
   text-align: left;
+}
+
+table.recent tbody tr:nth-child(odd) td,
+table.recent tbody tr:nth-child(odd) th {
+  background-color: white;
 }
 
 .table-spacing{
@@ -461,6 +472,7 @@ table.recent td {
   width: 200px;
   height: 200px;
 }
+
 
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #999988; font-style: italic } /* Comment */

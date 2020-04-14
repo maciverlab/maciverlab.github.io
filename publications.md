@@ -28,9 +28,9 @@ _Intersection of motor volumes predicts the outcome of predator-prey interaction
 Kiran D. Bhattacharyya, David L. McLean, Malcolm A. MacIver<br>
 bioRxiv, 2019 ([Preprint](https://www.biorxiv.org/content/10.1101/626549v1.abstract))
 
-_ Arbitrating between planning and habit in naturalistic environments_<br>
+_Arbitrating between planning and habit in naturalistic environments_<br>
 Ugurcan Mugan, Malcolm A. MacIver<br>
-Conference on Cognitive Computational Neuroscience, Berlin GR, 2019 ([Article](https://robotics.northwestern.edu/documents/publications/mugan.pdf)
+Conference on Cognitive Computational Neuroscience, Berlin GR, 2019 ([Article](https://robotics.northwestern.edu/documents/publications/mugan.pdf))
 
 _Terrestrial sensory ecology provides a selective benefit to planning_<br>
 COSYNE workshop 'Beyond trial-based choice: decision-making in naturalistic and temporally extended environments', Cascais PR, 2019 ([Video](https://www.youtube.com/watch?time_continue=3&v=Q3H-5Z3-6gM&feature=emb_title))
@@ -39,7 +39,7 @@ COSYNE workshop 'Beyond trial-based choice: decision-making in naturalistic and 
 
 _Feedback Synthesis For Underactuated Systems Using Sequential Second-Order Needle Variations_<br>
 Giorgos Mamakoukas, Malcolm A. MacIver, Todd D. Murphey<br>
-The International Journal of Robotics Research, 2018 ([Article](https://robotics.northwestern.edu/documents/publications/IJRR_published.pdf)
+The International Journal of Robotics Research, 2018 ([Article](https://robotics.northwestern.edu/documents/publications/IJRR_published.pdf))
 
 _How sensory ecology affects the utility of planning_<br>
 Ugurcan Mugan, Malcolm A. MacIver<br>
@@ -69,7 +69,7 @@ European Journal of Computational Mechanics, 2017 ([Article](https://robotics.no
 
 _Feedback Synthesis for Controllable Underactuated Systems using Sequential Second Order Actions_<br>
 Giorgos Mamakoukas, Malcolm A. MacIver, Todd D. Murphey<br>
-Robotics Science and Systems, 2017 ([Article](https://robotics.northwestern.edu/documents/publications/RSS_Jan17.pdf), [Video](https://robotics.northwestern.edu/documents/publications/videos/MamakoukasMacIverMurphey_RSS_2017.mp4)
+Robotics Science and Systems, 2017 ([Article](https://robotics.northwestern.edu/documents/publications/RSS_Jan17.pdf), [Video](https://robotics.northwestern.edu/documents/publications/videos/MamakoukasMacIverMurphey_RSS_2017.mp4))
 
 _Information-theoretic approach to sensor selection_<br>
 Ugurcan Mugan, Malcolm A. MacIver, Michael Peshkin<br>
@@ -148,7 +148,7 @@ Journal of Experimental Biology, 2012 ([Article](https://jeb.biologists.org/cont
 
 _Counter-Propagating Waves Enhance Maneuverability and Stability: A Bio-Inspired Strategy for Robotic Ribbon-Fin Propulsion_<br>
 Shahin Sefati, Izaak D. Neveln, Malcolm A. MacIver, Eric Fortune, Noah J. Cowan<br>
-4th IEEE RAS & EMBS International Conference on Biomedical Robotics and Biomechatronics (BioRob), 2012 ([Article](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.714.7296&rep=rep1&type=pdf)
+4th IEEE RAS & EMBS International Conference on Biomedical Robotics and Biomechatronics (BioRob), 2012 ([Article](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.714.7296&rep=rep1&type=pdf))
 
 _Optimal number of waves for ribbon fin propulsion_<br>
 Rahul Bale, Amneet Pal Singh Bhalla, Malcolm A. MacIver, Neelesh A. Patankar<br>
