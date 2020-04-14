@@ -27,7 +27,7 @@ permalink: /people/
            <p class="list-post-title">
                {% if profile.avatar %}
                {% else %}
-                   <img class="profile-thumbnail" src={{ site.url }}/assets/default_picture.png>
+                   <img class="profile-thumbnail" src={{site.url}}/assets/Fig01_electrosense.png>
                {% endif %}
          </p></div>
      {% endif %}
