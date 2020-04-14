@@ -5,7 +5,7 @@ permalink: /people/
 
 <br>
 
-<table class="general">
+<table>
   <tr>
     <th>Name</th>
     <th>Position</th> 
