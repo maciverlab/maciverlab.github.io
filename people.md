@@ -1,9 +1,7 @@
 ---
 title: People
-permalink: /people/
+permalink: people/
 ---
-
-
 
 <br>
 
