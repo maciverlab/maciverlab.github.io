@@ -6,27 +6,28 @@ permalink: /people/
 <br><br>
 
 {% assign people_sorted = site.people | sort: 'joined' %}
-{% assign role_array = "pi|postdoc|gradstudent|researchstaff|visiting|others|alumni" | split: "|" %}
+{% assign role_array = "pi|postdoc|gradstudent|researchstaff|visiting|others" | split: "|" %}
  
 {% for role in role_array %}
 
-{% assign people_in_role = people_sorted | where: 'position', role %}
+ {% assign people_in_role = people_sorted | where: 'position', role %}
 
-<div class="pos_header">
- {% if role == 'pi' %}
-<h3>Principal Investigator</h3>
- {% elsif role == 'gradstudent' %}
-<h3>Graduate Students</h3>
- {% elsif role == 'alumni' %}
+ <div class="pos_header">
+  {% if role == 'pi' %}
+ <h3>Principal Investigator</h3>
+  {% elsif role == 'gradstudent' %}
+ <h3>Graduate Students</h3>
+  {% elsif role == 'alumni' %}
+ <h3>Alumni</h3>
+ {% endif %}
+ </div>
+
+ <hr>
+
+{% endfor %}
+
 <h3>Alumni</h3>
-{% endif %}
-</div>
-
-{% if role != 'alumni' %}
-
 <hr>
-
-{% else %}
 <br>
 
 | Name | Position | Current Position |
