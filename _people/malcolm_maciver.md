@@ -1,7 +1,7 @@
 ---
 name: Malcolm MacIver
 position: pi
-avatar: maciver-malcolm
+avatar: maciver-malcolm.jpg
 twitter: 
 ---
 
