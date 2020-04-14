@@ -1,5 +1,5 @@
 ---
-name: Konrad Kording
+name: Malcolm MacIver
 position: pi
 avatar: 
 twitter: 
