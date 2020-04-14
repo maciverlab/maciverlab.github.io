@@ -7,6 +7,7 @@ permalink: /people/
 
  
 {% assign people_sorted = site.people | sort: 'joined' %}
+{% assign role_array = "pi|postdoc|gradstudent|researchstaff|visiting|others|alumni" | split: "|" %}
 
 
 | Name | Position | Current Position |
