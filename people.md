@@ -25,6 +25,10 @@ permalink: /people/
      {% if profile.position contains role %}
          <div class="list-item-people">
            <p class="list-post-title">
+               {% if profile.avatar %}
+               {% else %}
+                   <img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg">
+               {% endif %}
          </p></div>
      {% endif %}
   {% endfor %}
