@@ -22,16 +22,6 @@ permalink: /people/
  
 <div class="content list people">
   {% for profile in people_sorted %}
-    {% if profile.position contains role %}
-      <div class="list-item-people">
-        <p class="list-post-title">
-          {% if profile.avatar %}
-            <img class="profile-thumbnail" src="{{site.baseurl}}/images/people/{{profile.avatar}}">
-          {% else %}
-            <img class="profile-thumbnail" src="http://evansheline.com/wp-content/uploads/2011/02/facebook-Storm-Trooper.jpg">
-          {% endif %}
-        </p>
-      </div>    
   {% endfor %}
 </div>
 
