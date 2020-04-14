@@ -36,8 +36,6 @@ permalink: /people/
   {% endfor %}
 </div>
 
-<hr>
-
 {% endfor %}
 
 <div class="pos_header">
