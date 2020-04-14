@@ -5,8 +5,19 @@ permalink: /people/
 
 <br>
 
-| Who are they | When were they here | Where they went |
-| :------------- |:-------------| :-----------|
+<table class="general">
+  <tr>
+    <th>Name</th>
+    <th>Position</th> 
+    <th>Current Position</th>
+  </tr>
+   <tr>
+    <th>Jordan Haskel</th>
+    <th>Master of Science in Robotics Student</th> 
+    <th>Brain Corp</th>
+  </tr>
+ </table>
+
 | Jordan Haskel | Master of Science in Robotics Student | Brain Corp |
 | Chen Chen | Graduate Student | Apple Computer |
 | Kiran Bhattacharyya | Graduate Student (2013 - 2019) | Intuitive Surgical |
