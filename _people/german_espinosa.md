@@ -15,9 +15,7 @@ joined: 2018
 <i class="fa fa-bar-chart"></i> [google scholar](https://scholar.google.com/citations?user=kxR1cqEAAAAJ&hl=en) <br>
 <i class="fa fa-github"></i>[ GermanEspinosa](https://github.com/germanespinosa?tab=repositories)
 
-<br>
 <hr>
-<br>
 
 ### Publications
 
