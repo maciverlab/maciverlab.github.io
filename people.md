@@ -6,7 +6,7 @@ permalink: /people/
 <br><br>
 
 {% assign people_sorted = site.people | sort: 'joined' %}
-{% assign role_array = "pi|postdoc|gradstudent|researchstaff|visiting|others" | split: "|" %}
+{% assign role_array = "pi|postdoc|gradstudent|researchstaff" | split: "|" %}
  
 {% for role in role_array %}
 
@@ -91,5 +91,3 @@ permalink: /people/
 | Beth Lapour | Undergraduate (Mechanical Engineering, Washington University) (with E. Colgate) | - |
 | Ani Chatterjee | Undergraduate (Biomedical Engineering) | BD |
 
-(% endif %}
-{% endfor %}
