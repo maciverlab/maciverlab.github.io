@@ -41,7 +41,6 @@ permalink: /people/
 <div class="pos_header">
  <h3>Alumni</h3></div>
 <hr>
-<br>
 
 | Name | Position | Current Position |
 | :------------- |:-------------| :-----------|
