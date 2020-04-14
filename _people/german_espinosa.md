@@ -25,4 +25,4 @@ IEEE International Conference on Robotics and Automation (ICRA), 2018 ([Proceedi
 
 _Towards mixed reality system with quadrotor Autonomous drone positioning in real and virtual._<br>
 German Espinosa, Michael Rubenstein<br>
-Workshop Robotics in Virtual Reality, 2018 IEEE International Conference on Robotics and Automation (ICRA, 2018 ([Proceeding](https://robotics.northwestern.edu/documents/publications/Towards_mixed_reality_system_with_quadrotor_Autonomous_drone_positioning_in_real_and_virtual_reality_space_-_Final_.pdf))
+Workshop Robotics in Virtual Reality, IEEE International Conference on Robotics and Automation (ICRA), 2018 ([Proceeding](https://robotics.northwestern.edu/documents/publications/Towards_mixed_reality_system_with_quadrotor_Autonomous_drone_positioning_in_real_and_virtual_reality_space_-_Final_.pdf))
