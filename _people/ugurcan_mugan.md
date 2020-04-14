@@ -15,6 +15,10 @@ joined: 2014
 <i class="fa fa-bar-chart"></i> [google scholar](https://scholar.google.com/citations?user=_ab-jDQAAAAJ&hl=en) <br>
 <a href="https://twitter.com/conditionpavlov"><i class="fa fa-twitter"></i> @conditionpavlov</a>
 
+<br>
+<hr>
+<br>
+
 ### Publications
 
 _Spatial planning with long visual range benefits escape from visual predators in complex naturalistic environments_<br>
