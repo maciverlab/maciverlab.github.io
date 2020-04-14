@@ -12,11 +12,13 @@ permalink: /people/
     <th>Current Position</th>
   </tr>
    <tr>
-    <td>Jordan Haskel</th>
-    <td>Master of Science in Robotics Student</th> 
-    <td>Brain Corp</th>
+    <td>Jordan Haskel</td>
+    <td>Master of Science in Robotics Student</td> 
+    <td>Brain Corp</td>
   </tr>
  </table>
+ 
+ 
 | Name | Position | Current Position |
 | :------------- |:-------------| :-----------|
 | Jordan Haskel | Master of Science in Robotics Student | Brain Corp |
