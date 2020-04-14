@@ -39,7 +39,7 @@ permalink: /people/
 {% endfor %}
 
 <div class="pos_header">
- <h3>Alumni 6</h3></div>
+ <h3>Alumni 7</h3></div>
  
  <br>
 
