@@ -1,5 +1,4 @@
 ---
-layout: profile
 name: Ugurcan Mugan
 position: gradstudent
 avatar: ugurcan-mugan.jpg
