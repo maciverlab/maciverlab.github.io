@@ -3,8 +3,6 @@ title: Publications
 permalink: /publications/
 ---
 
-<br><br>
-
 For more information visit Malcolm's [Google Scholar profile](https://scholar.google.com/citations?user=9H9FROQAAAAJ&hl=en).
 
 We have tried to include links to all our papers as well as corresponding video explainer/outreach. While many of the PDFs should be avaialable, some of the articles may be behind the journal's paywall. If you cannot access one of our papers, let us know and we can send you the direct PDF. 
