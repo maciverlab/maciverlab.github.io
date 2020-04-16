@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
 }
-
+ 
 html {
   font-family: "Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
@@ -85,6 +85,15 @@ ul, ol, dl {
   font-size: 0.8rem;
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+ul.top_nav {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-position:outside;
+  padding:20px;
+  list-style-type:none;
 }
 
 li > ul > li {
