@@ -32,10 +32,6 @@ body {
       -ms-text-size-adjust: 100%;
 }
 
-body.top_nav_bar {
-  padding: 50px 0;
-}
-
 .MathJax_Display{
   font-size: 80%;
 }
@@ -440,6 +436,18 @@ table.recent tbody tr:nth-child(odd) th {
 //  padding: 2rem 1.5rem;
   margin-left:  auto;
   margin-right: auto;
+
+  @media (min-width: 80%){
+//    padding: 5rem 1rem;
+  }
+}
+
+.container_fixed_nav {
+  max-width: 80%;
+//  padding: 2rem 1.5rem;
+  margin-left:  auto;
+  margin-right: auto;
+  margin-top: 50px;
 
   @media (min-width: 80%){
 //    padding: 5rem 1rem;
