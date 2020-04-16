@@ -681,6 +681,14 @@ table.recent tbody tr:nth-child(odd) th {
   .navbar-nav {
     margin-right: 15px;
   }
+  
+  .navbar-custom .navbar-nav>li>a {
+    float: none;
+    isplay: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+    font-size: 15px;
+  }
 }
 
 // fix spacing
@@ -718,7 +726,8 @@ table.recent tbody tr:nth-child(odd) th {
   display:inline-block;
   *display:inline; /* ie7 fix */
   *zoom:1; /* hasLayout ie7 trigger */
-  vertical-align: top;
+  width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
 }
 
 .navbar-inner {
