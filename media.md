@@ -9,7 +9,9 @@ permalink: /media/
         <br>
         <p style="width: 100%; text-align: justify;">A game that illustrates some key ideas in our new work
                 <i>Spatial planning with long visual range benefits escape from visual predators in complex naturalistic
-                environments</i>. German Espinosa created the game and Alex Lai made the artwork for it. <br><br>  
+                environments</i>. [German Espinosa]({{ site.baseurl }}{% link _people/german_espinosa.md %})
+                created the game and [Alex Lai]({{ site.baseurl }}{% link _people/alex_lai.md %})
+                made the artwork for it. <br><br>  
 
                 Some key findings of the paper is that a combination of visual range and a certain level of habitat
                 complexity&mdash;only occurring on land&mdash;creates a gradient of benefit for the evolution of
@@ -58,14 +60,14 @@ permalink: /media/
         <h5>Our short-sighted inner fish</h5><br>
         <p style="width: 100%; text-align: justify;">A video developed for our 2017 study titled <i><a href="https://www.pnas.org/content/114/12/E2375.short">
                 Massive increase in visual range preceded the origin of terrestrial vertebrates</a></i>
-                to explore why ur fish ancestors made the leap on to land.</p><br>
+                to explore why our fish ancestors made the leap on to land.</p><br>
         <p style="text-align:center;"><iframe width="560" height="315" align="middle"
                 src="https://www.youtube.com/embed/I19usgWHJLc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
         
         <br><br>
         <p style="width: 100%; text-align: justify;">General coverage of research on why our fish ancestors headed for terra firma 350 million years ago: in 
         <a href="https://www.theatlantic.com/science/archive/2017/03/in-the-invasion-of-land-big-eyes-came-before-strong-legs/518883/">The Atlantic</a>
-        by Ed Yong, in <a href="https://www.quantamagazine.org/why-did-life-move-to-land-for-the-view-20170307/">Quanta</a> by Jennifer Ouellette.</p><br>
+        by Ed Yong, and in <a href="https://www.quantamagazine.org/why-did-life-move-to-land-for-the-view-20170307/">Quanta</a> by Jennifer Ouellette.</p><br>
         
         <h3>Neuromechanics of Prey Capture</h3>
         <br>
