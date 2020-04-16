@@ -696,7 +696,7 @@ table.recent tbody tr:nth-child(odd) th {
 
 /* change the background color */
 .navbar-custom {
-    background-color: #ff5500;
+    background-color: #eee;
 }
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
@@ -708,21 +708,16 @@ table.recent tbody tr:nth-child(odd) th {
     color: rgba(255,255,255,.5);
 }
 
-.navbar-custom .navbarnav{
-  background-color: #ff5500;
+.navbar-custom .navbar, .navbar-custom .navbar-nav>li>a{
+  background-color: #eee;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 80%;
 }
 
-// change font for navbar
-.navbar-custom .navbar-nav>li>a {
-  background-color: #ff5500;
-  font-family: 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  font-weight: 400;
-  font-size: 80%;
+.navbar-inner {
+  text-align:center;
 }
 
 /* change the color of active or hovered links */
