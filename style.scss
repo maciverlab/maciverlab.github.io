@@ -707,6 +707,24 @@ table.recent tbody tr:nth-child(odd) th {
 .navbar-custom .navbar-nav .nav-link {
     color: rgba(255,255,255,.5);
 }
+
+.navbar-custom .navbarnav{
+  background-color: #ff5500;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 80%;
+}
+
+// change font for navbar
+.navbar-custom .navbar-nav>li>a {
+  background-color: #ff5500;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 80%;
+}
+
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:focus .nav-link,
