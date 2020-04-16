@@ -13,7 +13,7 @@ body {
   margin: 0;
   padding: 0;
 }
- 
+
 html {
   font-family: "Open Sans", "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
@@ -30,6 +30,10 @@ body {
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+}
+
+body.top_nav_bar {
+  padding: 50px 0;
 }
 
 .MathJax_Display{
