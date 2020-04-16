@@ -726,6 +726,39 @@ table.recent tbody tr:nth-child(odd) th {
   background-color: #FFF;
 }
 
+// change font for navbar
+.navbar, .navbar2-nav>li>a {
+  background-color: #eee;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 100%;
+}
+
+// fix spacing
+.navbar2-nav>li {
+  margin-bottom: 0;
+}
+
+// fix menu bar spacing for mobile
+@media(max-width: 40em){
+  .navbar2-nav>li>a {
+    padding: 0.75em 0 0.5em 2.5em;
+    font-size: 15px;
+  }
+
+  // fix menu scroll along x axis
+  .navbar2-nav {
+    margin-right: 15px;
+  }
+}
+
+// fix menu button for mobile
+.navbar2-toggle, .navbar2-default .navbar2-toggle:hover {
+  border: none;
+  background-color: #eee;
+}
+
 .floatleft {
     float:left;
 }
