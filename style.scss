@@ -701,11 +701,11 @@ table.recent tbody tr:nth-child(odd) th {
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
-    color: rgba(255,255,255,.8);
+    color: #126b68;
 }
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: rgba(255,255,255,.5);
+    color: #22c9c4;
 }
 
 .navbar-custom .navbar, .navbar-custom .navbar-nav>li>a{
@@ -714,6 +714,11 @@ table.recent tbody tr:nth-child(odd) th {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 80%;
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
 }
 
 .navbar-inner {
@@ -724,7 +729,7 @@ table.recent tbody tr:nth-child(odd) th {
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:focus .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: #ffffff;
+    color: #12476b;
 }
 
 .navbar-custom .navbar-default{
