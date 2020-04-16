@@ -91,7 +91,13 @@ ul.top_nav {
   list-style-position:outside;
   padding:20px;
   list-style-type:none;
-  line-height:5em;
+  height:30px;
+}
+
+li.top_nav {
+  display: inline;
+  padding: 0 1.5em;
+  line-height:30px;
 }
 
 li > ul > li {
@@ -658,4 +664,11 @@ table.recent tbody tr:nth-child(odd) th {
   line-height: 1em;
   color: #0F79D0;
   display: block;
+}
+
+.floatleft {
+    float:left;
+}
+.floatright {
+    float:right;
 }
