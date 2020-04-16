@@ -88,12 +88,10 @@ ul, ol, dl {
 }
 
 ul.top_nav {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
   list-style-position:outside;
   padding:20px;
   list-style-type:none;
+  line-height:5em;
 }
 
 li > ul > li {
