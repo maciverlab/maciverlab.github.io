@@ -1,6 +1,11 @@
 ---
 layout: default
 title: Planning
+name: planning
 ---
 
-### Test
+<div class="container">
+  
+  ### Test 2
+
+</div>
