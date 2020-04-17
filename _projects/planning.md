@@ -48,3 +48,15 @@ Rooted in  evolution, we study both the algorithmic formalization and neural sub
         </center></figure></td>
   </tr>
 </table>
+
+### People
+
+{% assign people_sorted = site.people | sort: 'joined' %}
+
+<ul style="list-style-position:outside;padding:0px;list-style-type:none;">
+    {% for profile in people_sorted %}
+      {% if profile.project contains "planning" %}
+  <li><a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a></li>
+      {% endif %}
+    {% endfor %}
+</ul>
