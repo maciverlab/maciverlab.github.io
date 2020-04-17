@@ -5,42 +5,27 @@ permalink: /research/
 --- 
 
 // second fixed navbar
-nav#navbar-two.navbar.navbar-default.navbar-fixed-top.navbar-secondary(
-  role="navigation"
-)
-  .container
-    .navbar-header
-      button.navbar-toggle.collapsed(
-        type="button",
-        data-toggle="collapse",
-        data-target="#navbar-two--links"
-      )
-        span.sr-only Toggle navigation
-        span.icon-bar
-        span.icon-bar
-        span.icon-bar
-      a.navbar-brand(href="#") Navbar Secondary
+<nav id="navbar-two", class="navbar navbar-default navbar-fixed-top navbar-secondary" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar-two--links">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       
+      <a class="navbar-brand" href="#">Navbar Secondary</a>
+    </div>
 
-    #navbar-two--links.navbar-collapse.collapse
-      ul.nav.navbar-nav.navbar-right
-        li.active: a(href="#") Dashboard
-        li.navbar-text Some text
-        li.dropdown
-          a.dropdown-toggle(href="#", data-toggle="dropdown") Dropdown1
-            span.caret
-          ul.dropdown-menu(role="menu")
-            li: a(href="#") link
-            li: a(href="#") link2
-            li.divider
-            li: a(href="#") link3
-        li.dropdown
-          a.dropdown-toggle(href="#", data-toggle="dropdown") Dropdown
-            span.caret
-          ul.dropdown-menu(role="menu")
-            li: a(href="#") kuus
-            li: a(href="#") example
-        li: a(href="#") ciao
-        li: a(href="#") ancora
+    <div id="navbar-two--links" class="navbar-collapse collapse"
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Dashboard</a></li>
+        <li class="navbar-text"><a href="#">Some Text1</a></li>
+        <li class="navbar-text"><a href="#">Some Text2</a></li>
+        <li class="navbar-text"><a href="#">Some Text3</a></li>
+    </ul></div>
+</div></nav>
 
 <div class="container" style="margin-top:0px">
         <h3>8</h3>
