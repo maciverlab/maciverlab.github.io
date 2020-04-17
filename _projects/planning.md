@@ -34,3 +34,16 @@ insight into why we only see this in (certain) animals.</p>
 
 <hr>
 
+Rooted in  evolution, we study both the algorithmic formalization and neural substrates of naturalistic decision making, which encompasses decision making in temporally extended naturalistic environments. Our theoretical and algorithmic work aims to elucidate the effects of environment topology and complexity on state-space representations, and choice of arbitration between habit and planning. Our empirical work, conducted in collaboration with Daniel Dombeck (Department of Neurobiology), involves both behavioral and in-vivo imaging of mammalian brains in highly uncertain environments that mimic idealized predator-prey interactions to understand the biological mechanisms involved in decision making in more naturalistic tasks.  
+
+<table class="media">
+  <tr>
+    <td valign="top" width="70%">
+      <figure><center>
+          <img width="400" height="300" src="{{site.baseurl}}/images/posts/vr-system.png" data-action="zoom">
+        </center></figure></td>
+     <td valign="top" width="30%">
+      <figure><center>
+          <img width="300" height="300" src="{{site.baseurl}}/images/posts/maze.png" data-action="zoom">
+        </center></figure></td>
+</table>
