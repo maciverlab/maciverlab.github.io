@@ -776,54 +776,41 @@ table.recent tbody tr:nth-child(odd) th {
 
 /* NAVIGATION BAR-2
  -------------------------------------------------- */
-#navigation {
-    min-height: 70px !important;
-    padding-top: 10px;
-    margin:-4.3em
-}
-#navigation .navbar-brand {
-    padding-right: 28px;
-    width: 280px;
-    border-right: 3px solid rgba(255, 255, 255, 0.1);
-    font-family: "hobo-std", sans-serif;
-    font-style: italic;
-    font-size: 26px !important;
-    color: #5fcf80 !important;
-}
-#navigation .navbar-brand .site-logo {
-    float: left;
-    margin-top: -10px;
-    margin-right: 1rem;
-    width: 250px;
-}
-#navigation #navbar {
-    float: right !important;
-    margin-right: -15px;
-    font-family: 'Helvetica Rounded', Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 38px;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, .5) !important;
-}
-@media (max-width: 768px) {
-    #navigation #navbar {
-        float: none !important;
-        margin-right: 0;
+// default bootstrap variables
+$grid-float-breakpoint: 768px;
+$grid-gutter-width: 30px;
+$navbar-height: 50px;
+$zindex-navbar-fixed: 1030;
+
+// module variables
+$navbar_secondary--height: 50px !default;
+$navbar_secondary--z-index: $zindex-navbar-fixed - 1;
+$navbar_secondary--padding-uncollapsed: 0; // $grid-gutter-width / 2 0;
+
+.navbar-secondary {
+  min-height: $navbar_secondary--height;
+
+  &.navbar-fixed-top {
+    z-index: $navbar_secondary--z-index;
+    top: $navbar-height;
+  }
+
+  @media (min-width: $grid-float-breakpoint) {
+    padding: $navbar_secondary--padding-uncollapsed;
+
+    .navbar-collapse {
+      padding-right: 0;
+      padding-left: 0;
     }
-}
-#navigation #navbar .navbar-nav li a {
-    color: #b2bbbd !important;
-}
-#navigation #navbar .navbar-nav li a:hover,
-#navigation #navbar .navbar-nav li a:focus {
-    color: #ffffff !important;
-    border-bottom: 2px solid #ffffff !important;
-}
-#navigation #navbar .navbar-nav .active a {
-    color: #ffffff !important;
-    border-bottom: 2px solid #ffffff !important;
-}
-#navigation #navbar .navbar-nav .dropdown-menu li a {
-    color: #515151 !important;
-    text-shadow: none !important;
+  }
+
+  // .navbar-nav > li > a {
+  //   padding-top: 12px;
+  //   padding-bottom: 12px;
+  // }
+
+  // .navbar-toggle {
+  //   margin-top: $navbar_secondary--padding-uncollapsed / 3.5;
+  //   margin-bottom: $navbar_secondary--padding-uncollapsed / 3.5;
+  // }
 }
