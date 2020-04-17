@@ -40,10 +40,11 @@ Rooted in  evolution, we study both the algorithmic formalization and neural sub
   <tr>
     <td valign="top" width="70%">
       <figure><center>
-          <img width="400" height="300" src="{{site.baseurl}}/images/posts/vr-system.png" data-action="zoom">
+          <img width="721" height="300" src="{{site.baseurl}}/images/posts/vr-system.png" data-action="zoom">
         </center></figure></td>
      <td valign="top" width="30%">
       <figure><center>
-          <img width="300" height="300" src="{{site.baseurl}}/images/posts/maze.png" data-action="zoom">
+          <img width="355" height="300" src="{{site.baseurl}}/images/posts/maze.png" data-action="zoom">
         </center></figure></td>
+  </tr>
 </table>
