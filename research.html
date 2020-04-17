@@ -6,7 +6,7 @@ permalink: /research/
 
 <nav id="navbar" class="collapse navbar-collapse">
     <ul class="nav navbar-nav">
-        {% assign links = site.data.navigation %}
+        {% assign links = site.data.project_navigation %}
         {% for link in links %}
                 <li class="{{ class }}">
                     <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
