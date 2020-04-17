@@ -3,6 +3,7 @@ name: German Espinosa
 position: gradstudent
 avatar: german-espinosa.jpg
 twitter:
+project: planning
 joined: 2018
 ---
 
