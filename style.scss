@@ -414,25 +414,10 @@ table.recent tbody tr:nth-child(odd) th {
 .container_second_nav {
   max-width: 100%;
 //  padding: 2rem 1.5rem;
-  margin-left:  1em;
-  margin-right: 1em;
+  margin-left:  3em;
+  //margin-right: 1em;
 
   @media (min-width: 100%){
-//    padding: 5rem 1rem;
-  }
-}
-
-.container_fixed_nav {
-  max-width: 80%;
-//  padding: 2rem 1.5rem;
-  margin-left:  auto;
-  margin-right: auto;
-  margin-top: 100px;
-  position: relative; 
-  top: 100px;
-  z-index: 0;
-
-  @media (min-width: 80%){
 //    padding: 5rem 1rem;
   }
 }
@@ -737,10 +722,10 @@ table.recent tbody tr:nth-child(odd) th {
   //*display:inline; /* ie7 fix */
   //*zoom:1; /* hasLayout ie7 trigger */
   //width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
-  //text-align: center; /* If you want the text to be centered */
+  text-align: center; /* If you want the text to be centered */
 }
 
-.navbar-nav .navbar-center {
+.navbar-custom .navbar-nav .navbar-center {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
