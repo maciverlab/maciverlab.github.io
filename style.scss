@@ -683,7 +683,6 @@ table.recent tbody tr:nth-child(odd) th {
   }
   
   .navbar-custom .navbar-nav>li>a {
-    float: none;
     isplay: block;
     width: 100%;
     text-align: left; /* If you want the text to be left-aligned on small screens */
@@ -722,11 +721,11 @@ table.recent tbody tr:nth-child(odd) th {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 80%;
-  float:none;
-  display:inline-block;
-  *display:inline; /* ie7 fix */
-  *zoom:1; /* hasLayout ie7 trigger */
-  width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  //float:none;
+  //display:inline-block;
+  //*display:inline; /* ie7 fix */
+  //*zoom:1; /* hasLayout ie7 trigger */
+  //width: 25%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
   //text-align: center; /* If you want the text to be centered */
 }
 
@@ -734,6 +733,7 @@ table.recent tbody tr:nth-child(odd) th {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
+    text-align: center;
 }
 
 /* change the color of active or hovered links */
