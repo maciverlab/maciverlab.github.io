@@ -23,13 +23,13 @@ to a lack of study relative to terrestrial vertebrates), we can use the uneven d
 insight into why we only see this in (certain) animals.</p> 
 
 <figure><center>
-  <img width="500" src="{{site.baseurl}}/images/posts/decision-making.png" data-action="zoom">
+  <img width="800" src="{{site.baseurl}}/images/posts/decision-making.png" data-action="zoom">
 </center></figure>
 
 <p style="text-align:justify" width="100%">Conventionally, we think of nervous systems as the means by which an animal organizes its world, but a deep time perspective suggests that it is rather the world of an animal that organizes its brain. Our work shows that prior to the vertebrate invasion of land 385 million years ago, eyes tripled in size and shifted from the sides to the top of the head. Simulations of these animal's visual ecology suggests that these morphological changes would only be advantageous if animals were viewing through air, just above the water line, while still primarily inhabiting water. Therefore, before permanent life on land these animals probably hunted like crocodiles, where the vastly higher transparency of air enabled a more than 100-fold increase in visual range when compared to vision through water. The increase in visual range allowed these early vertebrates to see distant potential drivers of behavior, such as predator or prey, and afforded long delays between stimulus and response.  A possible reason for the greatly increased size and complexity of terrestrial vertebrate brains over those of fish is that this environment provides selective advantage to long sequences of actions toward distant goals, reaching its most complex form in varieties of prospective cognition in certain mammals and birds.</p> 
 
 <figure><center>
-  <img width="500" src="{{site.baseurl}}/images/posts/skull-visualrange.png" data-action="zoom">
+  <img width="800" src="{{site.baseurl}}/images/posts/skull_visualrange.png" data-action="zoom">
 </center></figure>
 
 <hr>
