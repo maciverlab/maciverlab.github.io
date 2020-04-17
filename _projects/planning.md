@@ -1,5 +1,5 @@
 ---
-title: Algorithmic
+title: Algorithmic and Neural Basis of Naturalistic Decision Making
 name: planning
 ---
 
