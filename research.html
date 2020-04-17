@@ -4,30 +4,31 @@ title: Research
 permalink: /research/
 --- 
 
-// second fixed navbar
-<nav class="navbar-two navbar navbar-default navbar-fixed-top navbar-secondary" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar-two--links">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-       
-      <a class="navbar-brand" href="#">Navbar Secondary</a>
-    </div>
-
-    <div id="navbar-two--links" class="navbar-collapse collapse"
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Dashboard</a></li>
-        <li class="navbar-text"><a href="#">Some Text1</a></li>
-        <li class="navbar-text"><a href="#">Some Text2</a></li>
-        <li class="navbar-text"><a href="#">Some Text3</a></li>
-    </ul></div>
-</div></nav>
+<nav class="navbar navbar-custom bg-primary" style="margin:-4.3em" role="navigation">
+       <div class="container">
+                <div class="navbar-header">
+                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                 </button>
+                 </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbarCustom">
+                        <ul class="nav navbar-nav navbar-center">
+                          {% assign links = site.data.project_navigation %}
+                          {% for link in links %}
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a></li>
+                          {% endfor %}
+                        </ul>
+                </div>
+            <!-- /.navbar-collapse -->
+        <!-- /.container-fluid -->
+        </div>
+</nav>
 
 <div class="container" style="margin-top:0px">
-        <h3>8</h3>
+        <h3>9</h3>
 </div>
 
