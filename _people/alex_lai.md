@@ -3,6 +3,7 @@ name: Alex Lai
 position: gradstudent
 avatar: alex-lai.jpg
 twitter:
+project: planning
 joined: 2019
 ---
 
