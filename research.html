@@ -15,10 +15,9 @@ permalink: /research/
             <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbarCustom">
                         <ul class="nav navbar-nav navbar-center">
-                                {% for nav in site.projects %}
-                                   {% if nav.categories=="research" %}
-                                          <li class="nav-item"><a class="nav-link" href="{{site.baseurl}}{{ nav.url }}">{{ nav.title }}</a></li>
-                                   {% endif %}
+                                {% for project in site.projects %}
+                                   <!--{% if nav.categories=="research" %}-->
+                                          <li class="nav-item"><a class="nav-link" href="{{site.baseurl}}{{ project.url }}">{{ project.title }}</a></li>
                                 {% endfor %}
                         </ul>
                 </div>
@@ -28,6 +27,6 @@ permalink: /research/
 </nav>
 
 <div class="container" style="margin-top:100px">
-        <h3>6</h3>
+        <h3>7</h3>
 </div>
 
