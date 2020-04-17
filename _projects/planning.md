@@ -46,4 +46,5 @@ Rooted in  evolution, we study both the algorithmic formalization and neural sub
       <figure><center>
           <img width="300" height="300" src="{{site.baseurl}}/images/posts/maze.png" data-action="zoom">
         </center></figure></td>
+  </tr>
 </table>
