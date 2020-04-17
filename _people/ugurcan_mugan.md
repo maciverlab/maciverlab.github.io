@@ -3,6 +3,7 @@ name: Ugurcan Mugan
 position: gradstudent
 avatar: ugurcan-mugan.jpg
 twitter: conditionpavlov
+project: planning|electrosense
 joined: 2014
 ---
 
