@@ -56,7 +56,15 @@ Rooted in  evolution, we study both the algorithmic formalization and neural sub
 <ul style="list-style-position:outside;padding:0px;list-style-type:none;">
     {% for profile in people_sorted %}
       {% if profile.project contains "planning" %}
-  <li><a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a></li>
+  <li><p>
+    <a class="name" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a>, 
+          {% if profile.position contains "gradstudent" %} 
+              PhD Student
+          {% elseif profile.position contains "postdoc" %}
+              Postdoc
+          {% elseif profile.position contains "research" %}
+              Research Staff
+          {% endif %}</p></li>
       {% endif %}
     {% endfor %}
 </ul>
