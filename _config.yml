@@ -83,7 +83,6 @@ defaults:
 collections:
   projects:
     output: true
-    permalink: /projects/:categories/:title.html
   projdata:
     output: true
     permalink: /data/:categories/:title.html
