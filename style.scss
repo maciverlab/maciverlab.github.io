@@ -411,6 +411,17 @@ table.recent tbody tr:nth-child(odd) th {
   }
 }
 
+.container_second_nav {
+  max-width: 100%;
+//  padding: 2rem 1.5rem;
+  margin-left:  1em;
+  margin-right: 1em;
+
+  @media (min-width: 100%){
+//    padding: 5rem 1rem;
+  }
+}
+
 .container_fixed_nav {
   max-width: 80%;
 //  padding: 2rem 1.5rem;
