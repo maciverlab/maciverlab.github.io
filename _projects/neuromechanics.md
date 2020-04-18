@@ -15,22 +15,23 @@ This enables visualization of the function of the nervous system at level beyond
 in any other vertebrate. In collaboration with Prof. David McLean at Northwestern, we are analyzing
 prey capture behavior and key midbrain circuits to understand how brains process complex stimuli in
 the generation of motor programs. Black ghost knifefish are an ideal system for detailed analysis of
-\how the brain performs signal processing on sensory signals, and provide an exquisite system for the
-analysis of the mechanics of agility.</p>
+how the brain performs signal processing on sensory signals, and provide an exquisite system for the
+analysis of the mechanics of agility.
+<br><br>
+    The video below is of a 4 millimeter long larval zebrafish
+hunting a 0.1 millimeter long Paramecium. Shot at 250 frames per second, movie exported at
+30 FPS. Total actual time: just under one second.</p>
 
 <p style="text-align:center;">
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/55642867" width="640" height="640" frameborder="0" allowfullscreen></iframe></p><br>
 
-<p style="text-align:justify" width="100%">4 millimeter long larval zebrafish
-hunts 0.1 millimeter long Paramecium. Shot at 250 frames per second, movie exported at
-30 FPS. Total actual time: just under one second.</p> 
+<p style="text-align:justify" width="100%">The same prey capture event after automated
+tracking combined with some postprocessing to extract curvature (heat map), and body
+velocity (blue line) and body angle (green line). </p>
 
 <p style="text-align:center;">
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/55642806" width="640" height="480" frameborder="0" allowfullscreen></iframe></p><br>
 
-<p style="text-align:justify" width="100%">The same prey capture event after automated
-tracking combined with some postprocessing to extract curvature (heat map), and body
-velocity (blue line) and body angle (green line). </p>
 
 #### People<br>
 
@@ -38,7 +39,7 @@ velocity (blue line) and body angle (green line). </p>
 
 <ul style="list-style-position:outside;padding:0px;list-style-type:none;">
     {% for profile in people_sorted %}
-      {% if profile.project contains "planning" %}
+      {% if profile.project contains "preycapture" %}
           {% if profile.position contains "gradstudent" %} 
               {% assign profile_full = profile.name | append: ',  PhD student' %}
               <li> <a class="research" href="{{ site.baseurl }}{{ profile.url }}">{{ profile_full }}</a></li>
@@ -48,6 +49,8 @@ velocity (blue line) and body angle (green line). </p>
           {% elsif profile.position contains "research" %}
               {% assign profile_full = profile.name | append: ' ,  Research Staff' %}
               <li> <a class="research" href="{{ site.baseurl }}{{ profile.url }}">{{ profile_full }}</a></li>
+          {% elsif profile.position contains "alumni" %}
+              <li> <a class="research" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a></li>
           {% endif %}
       {% endif %}
     {% endfor %}
