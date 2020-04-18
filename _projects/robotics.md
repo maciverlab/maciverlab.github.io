@@ -3,7 +3,7 @@ title: Mechanics and Bio-Inspired Robotics of Fish Locomotion
 name: robotics
 ---
 
-### Neuromechanics of Prey Capture
+### Mechanics and Bio-Inspired Robotics of Fish Locomotion
 
 <p style="text-align:justify" width="100%">Knifefish are highly maneuverable swimmers capable of navigating
 complex environments. The fish generate thrust by undulating an elongated ventral fin. We study the fin
