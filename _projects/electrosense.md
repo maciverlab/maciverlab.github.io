@@ -31,7 +31,7 @@ by an insulating pod.</p>
 
 <p style="text-align:center;"><iframe title="vimeo-player" src="https://player.vimeo.com/video/95799899" width="640" height="450" frameborder="0" allowfullscreen></iframe></p><br>
 
-**Exploration**<br><br>
+**Exploration**<br>
 
 <p style="text-align:justify" width="100%">An intutive use for our active electrosensing robot is to explore
 unknown underwater environments. There are plenty of techniques developed for vision and sonar,
@@ -44,7 +44,7 @@ our time in the regions that will yield more salient information given that we d
 objects are ahead of time. We use Bayesian filters, Fisher information as well as ergodicity to try
 to answer our question. </p>
 
-**Obstacle Avoidance**<br><br>
+**Obstacle Avoidance**<br>
 
 <p style="text-align:justify" width="100%">Simple reactive control algorithms can be applied to the
 sensorPod to navigate through cluttered underwater environment. Shown below is a point of vision
