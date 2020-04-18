@@ -63,7 +63,7 @@ similar to what we discovered the real fish uses for hunting prey.</p>
           {% elsif profile.position contains "research" %}
               {% assign profile_full = profile.name | append: ' ,  Research Staff' %}
               <li> <a class="research" href="{{ site.baseurl }}{{ profile.url }}">{{ profile_full }}</a></li>
-          {% elseif profile.position contains "alumni" %}
+          {% elsif profile.position contains "alumni" %}
               <li> <a class="research" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a></li>
           {% endif %}
       {% endif %}
