@@ -10,23 +10,23 @@ situations. For this reason, we have been exploring the use of a novel biologica
 sensing based on the detection of perturbations to a self generated electric field. This is used by many species
 of neotropical nocturnal freshwater fish. This approach, termed active electrosense, provides unique capabilities
 for sensing of nearby objects.
-<br>
-Northwestern University has pioneered developing electronic equivalents to active electrosense. Together with Fred Boyer's group, we organized the First International Workshop on Robotic Electrosense in 2012.</p>
+<br><br>
+Northwestern University has pioneered developing electronic equivalents to active electrosense. Together with Fred Boyer's group, we organized the First International Workshop on Robotic Electrosense in 2012.<br><br>
 
-
-<figure><center>
-  <img width="640" src="{{site.baseurl}}/images/posts/decision-making.png" data-action="zoom">
-</center></figure>
-
-<p style="text-align:justify" width="100%">The image above provides an example of how this sensory mechanism works.
+This image  provides an example of how this sensory mechanism works.
 In A, two electrodes (red) are set to emit a bi-phasic oscillating signal. Another two electrodes (green) are
 positioned orthogonal to the original pair and all electrodes are equidistant from a center point.
 When the green electrodes are measured differentially in an open space with no objects present, a voltage
 perturbation of 0 is measured.  In B, when we add an object whose conductivity differs from the surrounding
 fluid, the field is perturbed so that we are able to measure a change in voltage. This system creates the
-basic unit we use for active electrosense where changes in the conductivity of the environment can be sensed.
-<br>
-The video below demonstrates what happens to the field and electrode measurements as an object flies
+basic unit we use for active electrosense where changes in the conductivity of the environment can be sensed</p>
+
+<figure><center>
+  <img width="640" src="{{site.baseurl}}/images/posts/electrosense.png" data-action="zoom">
+</center></figure>
+
+
+<p style="text-align:justify" width="100%">The video below demonstrates what happens to the field and electrode measurements as an object flies
 by an insulating pod.</p> 
 
 <p style="text-align:center;"><iframe title="vimeo-player" src="https://player.vimeo.com/video/95799899" width="640" height="450" frameborder="0" allowfullscreen></iframe></p><br>
@@ -74,7 +74,7 @@ The sensorPod tries to balance the electric signals on two sides to avoid obstac
 
 <ul style="list-style-position:outside;padding:0px;list-style-type:none;">
     {% for profile in people_sorted %}
-      {% if profile.project contains "planning" %}
+      {% if profile.project contains "electrosense" %}
           {% if profile.position contains "gradstudent" %} 
               {% assign profile_full = profile.name | append: ',  PhD student' %}
               <li> <a class="research" href="{{ site.baseurl }}{{ profile.url }}">{{ profile_full }}</a></li>
@@ -84,6 +84,8 @@ The sensorPod tries to balance the electric signals on two sides to avoid obstac
           {% elsif profile.position contains "research" %}
               {% assign profile_full = profile.name | append: ' ,  Research Staff' %}
               <li> <a class="research" href="{{ site.baseurl }}{{ profile.url }}">{{ profile_full }}</a></li>
+          {% elsif profile.position contains "alumni" %}
+              <li> <a class="research" href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a></li>
           {% endif %}
       {% endif %}
     {% endfor %}
