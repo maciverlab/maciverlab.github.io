@@ -78,6 +78,9 @@ _Optimal movement in the prey strikes of weakly electric fish: a case study of t
 Claire M. Postlethwaite, Tiffany M. Psemeneki, Jangir Selimkhanov, Mary Silber, Malcolm A. MacIver<br>
 Journal of The Royal Society Interface, 2009 ([Article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2659693/))
 
+_Neuroethology: From Morphological Computation to Planning_ Malcolm A. MacIver<br>
+The Cambridge Handbook of Situated Cognition (2009), Robbins P. & Aydede M. (eds). Cambridge University Press: Capter 26, 48-504
+
 _Omnidirectional sensory and motor volumes in electric fish_<br>
 James B. Snyder, Mark E. Nelson, Joel W. Burdick, Malcolm A. MacIver<br>
 PLoS Biology, 2007 ([Article](https://journals.plos.org/plosbiology/article/file?type=printable&id=10.1371/journal.pbio.0050301))
