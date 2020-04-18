@@ -38,14 +38,12 @@ permalink: /people/
 
 <div class="pos_header">
  <h3>Alumni</h3></div>
- 
- <br>
 
 | Name | Position | Current Position |
 | :------------- |:-------------| :-----------|
 | Jordan Haskel | Master of Science in Robotics Student | Brain Corp |
-| Chen Chen | Graduate Student | Apple Computer |
-| Kiran Bhattacharyya | Graduate Student | Intuitive Surgical |
+| [Chen Chen](https://maciverlab.github.io/people/chen_chen)| Graduate Student | Apple Computer |
+| [Kiran Bhattcharyya](https://maciverlab.github.io/people/kiran_bhattcharyya)| Graduate Student | Intuitive Surgical |
 | Sam Minkowicz | Rotation Student | Northwestern (Genia Kozorvitskiy's Lab)  |
 | Michael Wiznitzer | Master of Science in Robotics Student | BITO Robotics |
 | Matthew Green | Postdoc | - |
