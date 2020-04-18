@@ -31,7 +31,7 @@ by an insulating pod.</p>
 
 <p style="text-align:center;"><iframe title="vimeo-player" src="https://player.vimeo.com/video/95799899" width="640" height="450" frameborder="0" allowfullscreen></iframe></p><br>
 
-##### Exploration<br>
+**Exploration**<br><br>
 
 <p style="text-align:justify" width="100%">An intutive use for our active electrosensing robot is to explore
 unknown underwater environments. There are plenty of techniques developed for vision and sonar,
@@ -44,20 +44,7 @@ our time in the regions that will yield more salient information given that we d
 objects are ahead of time. We use Bayesian filters, Fisher information as well as ergodicity to try
 to answer our question. </p>
 
-##### Exploration<br>
-
-<p style="text-align:justify" width="100%">An intutive use for our active electrosensing robot is to explore
-unknown underwater environments. There are plenty of techniques developed for vision and sonar,
-however our induced voltage pertubations does not fit either of these categories. Rather than
-abstracting and correlating the voltage pertubation with specific objects (see Statistical Object
-Identification) we stay exclusively in the voltage domain. The assumption is that every object will
-have a particular voltage profile; and thus searching for the areas that are unqiue in each profile
-will help us localize objects more easily. The question that we ask is how do we optimally maximize
-our time in the regions that will yield more salient information given that we don't know where our
-objects are ahead of time. We use Bayesian filters, Fisher information as well as ergodicity to try
-to answer our question. </p>
-
-#### Obstacle Avoidance<br>
+**Obstacle Avoidance**<br><br>
 
 <p style="text-align:justify" width="100%">Simple reactive control algorithms can be applied to the
 sensorPod to navigate through cluttered underwater environment. Shown below is a point of vision
