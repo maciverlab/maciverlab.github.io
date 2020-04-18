@@ -73,8 +73,8 @@ Rooted in  evolution, we study both the algorithmic formalization and neural sub
 #### Collaborators<br>
 
 <ul style="list-style-position:outside;padding:0px;list-style-type:none;">
-  <li><a class="research" href="https://www.neurobiology.northwestern.edu/people/core-faculty/daniel-dombeck.html"?>Daniel Dombeck, Dept. of Neurobiology, Northwestern Universtiy</a></li>
-  <li><a class="research" href="http://www.dombecklab.org/lab-members/"?>Heydar Davoudi, Postdoc in the Dombeck Lab</a></li>
+  <li><a class="research" href="https://www.neurobiology.northwestern.edu/people/core-faculty/daniel-dombeck.html">Daniel Dombeck, Dept. of Neurobiology, Northwestern Universtiy</a></li>
+  <li><a class="research" href="http://www.dombecklab.org/lab-members/">Heydar Davoudi, Postdoc in the Dombeck Lab</a></li>
 </ul>
 
 #### Related Publications<br>
