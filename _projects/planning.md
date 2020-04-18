@@ -16,7 +16,7 @@ years) and mammalian neural system that is implicated in reflexive behavior sugg
 on in the vertebrate evolution. In contrast, behavioral and neural evidence for planing and higher level cognition seems to 
 only exist for mammals and birds. Evidence for planning is less clear for reptiles and amphibians, and similarly ambiguous or 
 absent in fish.</p>
-<br>
+
 <p style="text-align:justify" width="100%">Assuming the apparent absence of plan-based decision making in fish and other 
 early vertebrates is correct (and not simply due 
 to a lack of study relative to terrestrial vertebrates), we can use the uneven distribution of higher level cognition to gain 
