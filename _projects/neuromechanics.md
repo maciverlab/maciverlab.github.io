@@ -1,6 +1,6 @@
 ---
 title: Neuromechanics of Prey Capture
-name: prey_capture
+name: neuromechanics
 ---
 
 ### Neuromechanics of Prey Capture
