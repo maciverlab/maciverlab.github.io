@@ -1,7 +1,7 @@
 ---
 name: Kiran D. Bhattcharyya
 position: alumni
-avatar: kiran-bhattcharyya.jpg
+avatar: kiran-bhattacharyya.jpg
 twitter: 
 project: prey-capture
 joined: 2014
