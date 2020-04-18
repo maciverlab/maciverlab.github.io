@@ -77,7 +77,7 @@ Rooted in  evolution, we study both the algorithmic formalization and neural sub
   <li><a class="research" href="http://www.dombecklab.org/lab-members/">Heydar Davoudi, Postdoc in the Dombeck Lab</a></li>
 </ul>
 
-#### Related Publications<br>
+### Related Publications<br>
 
 _Spatial planning with long visual range benefits escape from visual predators in complex naturalistic environments_<br>
 Ugurcan Mugan, Malcolm A. MacIver<br>
