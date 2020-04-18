@@ -9,7 +9,7 @@ name: robotics
 complex environments. The fish generate thrust by undulating an elongated ventral fin. We study the fin
 mechanics using motion capture of live fish, computational fluid dynamics, and bio-inspired robotics.
 Using these tools, we are uncovering the underlying principles of knifefish locomotion which can then
-be implemented into underwater robotics to enhance maneuverability.
+be implemented into underwater robotics to enhance maneuverability.<br>
 <br>
 Below is a video that demonstrates the forward and backward traveling waves
 along the ribbon fin of the black ghost electric knifefish.
