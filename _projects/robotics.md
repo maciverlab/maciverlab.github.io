@@ -30,14 +30,14 @@ The water is seeded with reflective particles for subsequent particle imaging ve
 
 <p style="text-align:center;">
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/55543716" width="640" height="640" frameborder="0" allowfullscreen></iframe></p><br>
-<br>
+
 
 <p style="text-align:justify" width="100%">In this video, Ghostbot demonstrates 'nodal point control' in 
 which a closed-loop positioning algorithm shifts the point at which inward counter-propagating waves
 meet in order to control position. </p> 
 <p style="text-align:center;">
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/55488639" width="640" height="360" frameborder="0" allowfullscreen></iframe></p><br>
-<br>
+
 
 <p style="text-align:justify" width="100%">We perform 3D Navier-Stokes simulations of 
 fish and robot locomotion. Shown here is forward swimming followed by a rapid reversal, 
