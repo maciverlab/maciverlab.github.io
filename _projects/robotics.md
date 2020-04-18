@@ -49,7 +49,7 @@ similar to what we discovered the real fish uses for hunting prey.</p>
 
 #### People<br>
 
-{% assign people_sorted = site.people | sort: 'joined' %}
+{% assign people_sorted = site.people | sort: 'joined' | reverse %}
 
 <ul style="list-style-position:outside;padding:0px;list-style-type:none;">
     {% for profile in people_sorted %}
