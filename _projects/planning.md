@@ -49,7 +49,7 @@ Rooted in  evolution, we study both the algorithmic formalization and neural sub
   </tr>
 </table>
 
-### People
+#### People<br>
 
 {% assign people_sorted = site.people | sort: 'joined' %}
 
@@ -69,3 +69,33 @@ Rooted in  evolution, we study both the algorithmic formalization and neural sub
       {% endif %}
     {% endfor %}
 </ul>
+
+#### Collaborators<br>
+
+<ul style="list-style-position:outside;padding:0px;list-style-type:none;">
+  <li><a class="research" href="https://www.neurobiology.northwestern.edu/people/core-faculty/daniel-dombeck.html"?>Daniel Dombeck, Dept. of Neurobiology, Northwestern Universtiy</a></li>
+  <li><a class="research" href="http://www.dombecklab.org/lab-members/"?>Heydar Davoudi, Postdoc in the Dombeck Lab</a></li>
+</ul>
+
+#### Related Publications<br>
+
+_Spatial planning with long visual range benefits escape from visual predators in complex naturalistic environments_<br>
+Ugurcan Mugan, Malcolm A. MacIver<br>
+Under revision, Nature Communications, 2020 ([Preprint](https://www.biorxiv.org/content/10.1101/585760v2))
+
+_Arbitrating between planning and habit in naturalistic environments_<br>
+Ugurcan Mugan, Malcolm A. MacIver<br>
+Conference on Cognitive Computational Neuroscience, Berlin GR, 2019 ([Article](https://robotics.northwestern.edu/documents/publications/mugan.pdf))
+
+_How sensory ecology affects the utility of planning_<br>
+Ugurcan Mugan, Malcolm A. MacIver<br>
+Conference on Cognitive Computational Neuroscience, Philadelphia PA, 2018 ([Article](https://robotics.northwestern.edu/documents/publications/Muga18a_ecology_planning.pdf), [Presentation](https://www.youtube.com/watch?v=yKILeeI_9n0&feature=emb_title))
+
+_Massive increase in visual range preceded the origin of terrestrial vertebrates_<br>
+Malcolm A. MacIver, Lars Schmitz, Ugurcan Mugan, Todd D. Murphey, Curtis D. Mobley<br>
+Proceedings of the National Academy of Sciences, 2017 ([Article](https://www.pnas.org/content/114/12/E2375.short), [Video Explainer](https://youtu.be/I19usgWHJLc))
+
+_Neuroscience Needs Behavior: Correcting a Reductionist Bias_<br>
+John W. Krakauer, Asif A. Ghazanfar, Alex Gomez-Martin, Malcolm A. MacIver, David Poeppel<br>
+Neuron, 2017 ([Article](https://www.sciencedirect.com/science/article/pii/S0896627316310406))
+
