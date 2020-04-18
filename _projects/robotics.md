@@ -53,7 +53,7 @@ similar to what we discovered the real fish uses for hunting prey.</p>
 
 <ul style="list-style-position:outside;padding:0px;list-style-type:none;">
     {% for profile in people_sorted %}
-      {% if profile.project contains "planning" %}
+      {% if profile.project contains "robotics" %}
           {% if profile.position contains "gradstudent" %} 
               {% assign profile_full = profile.name | append: ',  PhD student' %}
               <li> <a class="research" href="{{ site.baseurl }}{{ profile.url }}">{{ profile_full }}</a></li>
