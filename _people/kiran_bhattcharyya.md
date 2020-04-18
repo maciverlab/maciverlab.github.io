@@ -4,7 +4,7 @@ position: alumni
 avatar: kiran-bhattacharyya.jpg
 twitter: 
 project: preycapture
-joined: 2014
+joined: 2012
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" data-action="zoom">
