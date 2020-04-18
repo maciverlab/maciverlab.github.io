@@ -103,7 +103,7 @@ The sensorPod tries to balance the electric signals on two sides to avoid obstac
   <li><a class="research" href="http://www.hdtglobal.com">HDT Global</a></li>
 </ul>
 
-#### Related Publications<br>
+### Related Publications<br>
 
 _Human-in-the-loop active electrosense_<br>
 Sandra Fang, Michael Peshkin, Malcolm A. MacIver<br>
