@@ -70,7 +70,7 @@ The sensorPod tries to balance the electric signals on two sides to avoid obstac
 
 #### People<br>
 
-{% assign people_sorted = site.people | sort: 'joined' %}
+{% assign people_sorted = site.people | sort: 'joined' | reverse %}
 
 <ul style="list-style-position:outside;padding:0px;list-style-type:none;">
     {% for profile in people_sorted %}
