@@ -1,6 +1,6 @@
 ---
 title: Active Electrosense
-name: electrosense
+name: active_electrosense
 ---
 
 ### Active Electrosense
