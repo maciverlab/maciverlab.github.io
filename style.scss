@@ -308,35 +308,35 @@ table.research {
   width: 100%;
   font-size: 100%;
   border: 1px solid #333;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 table.research td {
-  padding: 1rem;
+  padding: 0.5rem;
   border-right: 0;
   border-top: 0;
   border-left: 0;
   border-bottom: 0;
   text-align: left;
   vertical-align: top;
-  background-color: #333;
+  background-color: #595959;
   color: white;
 }
 
 table.research td:hover {
   background-color: white;
-  color: #333;
+  color: #595959;
 }
 
 table.research tbody tr:nth-child(odd) td,
 table.resaerch tbody tr:nth-child(odd) th {
-  background-color: #333;
+  background-color: #595959;
 }
 
 table.research tbody tr:nth-child(odd) td:hover,
 table.resaerch tbody tr:nth-child(odd) th:hover {
   background-color: white;
-  color: #333;
+  color: #595959;
 }
 
 table.media {
