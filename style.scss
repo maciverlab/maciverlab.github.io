@@ -328,8 +328,8 @@ table.research {
 table.research td {
   padding: 0.5rem;
   //border: 1px solid #404040;
-  border-left:solid #404040 1px;
-  border-top:solid #404040 1px;
+  //border-left:solid #404040 1px;
+  //border-top:solid #404040 1px;
   //border-right: 0;
   //border-top: 0;
   //border-left: 0;
@@ -338,6 +338,8 @@ table.research td {
   vertical-align: top;
   background-color: #404040;
   color: white;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
 }
 
 table.research td:hover {
