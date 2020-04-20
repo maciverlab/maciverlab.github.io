@@ -302,38 +302,33 @@ table tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
 
-table.topnav {
+table.research {
   border-collapse: collapse;
   //padding: .25rem .5rem;
   width: 100%;
-  font-size: 1em;
-  font-weight: 300;
-  border: 1px solid #eee;
-  background-color: #eee;
-  margin: 0 1em 0 1em;
+  font-size: 100%;
+  border: 1px solid #333;
+  margin-top: 1rem;
 }
 
-table.topnav td {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1em;
-  padding:.25rem 1rem .25rem 0rem;
+table.research td {
+  padding: 2rem;
+  border-right: 0;
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 0;
   text-align: left;
-  border: none;
+  vertical-align: top;
+  background-color: #333;
 }
 
-table.topnav tbody tr:nth-child(odd) td,
-table.topnav tbody tr:nth-child(odd) th {
-  background-color: #eee;
+table.research td:hover {
+  background-color:white;
 }
 
-.topnav_ref {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1em;
-  font-weight: 300;
-  color: #0F79D0;
-  display: block;
+table.research tbody tr:nth-child(odd) td,
+table.resaerch tbody tr:nth-child(odd) th {
+  background-color: #333;
 }
 
 table.media {
