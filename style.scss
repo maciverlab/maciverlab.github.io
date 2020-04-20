@@ -320,14 +320,18 @@ table.research {
   font-size: 100%;
   border: 1px solid #333;
   margin-top: 0.5rem;
+  border: 1px solid #595959;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
 }
 
 table.research td {
   padding: 0.5rem;
-  border-right: 0;
-  border-top: 0;
-  border-left: 0;
-  border-bottom: 0;
+  border: 1px solid #595959;
+  //border-right: 0;
+  //border-top: 0;
+  //border-left: 0;
+  //border-bottom: 0;
   text-align: left;
   vertical-align: top;
   background-color: #595959;
@@ -337,6 +341,12 @@ table.research td {
 table.research td:hover {
   background-color: white;
   color: #595959;
+}
+
+table.research td:first-child,
+table.research th:first-child {
+  border-left: none;
+  border-top: none;
 }
 
 table.research tbody tr:nth-child(odd) td,
