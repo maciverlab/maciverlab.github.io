@@ -314,33 +314,33 @@ table tbody tr:nth-child(odd) th {
 }
 
 table.research {
-  border-collapse: collapse;
+  border-collapse:separate;
   //padding: .25rem .5rem;
   width: 100%;
   font-size: 100%;
   border: 1px solid #333;
   margin-top: 0.5rem;
-  border: 1px solid #595959;
+  border: 1px solid #404040;
   border-radius: 10px;
   -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
 }
 
 table.research td {
   padding: 0.5rem;
-  border: 1px solid #595959;
+  border: 1px solid #404040;
   //border-right: 0;
   //border-top: 0;
   //border-left: 0;
   //border-bottom: 0;
   text-align: left;
   vertical-align: top;
-  background-color: #595959;
+  background-color: #404040;
   color: white;
 }
 
 table.research td:hover {
-  background-color: white;
-  color: #595959;
+  background-color: #4d4d4d;
 }
 
 table.research td:first-child,
@@ -351,13 +351,12 @@ table.research th:first-child {
 
 table.research tbody tr:nth-child(odd) td,
 table.resaerch tbody tr:nth-child(odd) th {
-  background-color: #595959;
+  background-color: #404040;
 }
 
 table.research tbody tr:nth-child(odd) td:hover,
 table.resaerch tbody tr:nth-child(odd) th:hover {
-  background-color: white;
-  color: #595959;
+  background-color: #404040;
 }
 
 table.media {
