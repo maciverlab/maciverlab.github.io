@@ -328,7 +328,9 @@ table.research {
 
 table.research td {
   padding: 0.5rem;
-  border: 1px solid #404040;
+  //border: 1px solid #404040;
+  border-left:solid #404040 1px;
+  border-top:solid #404040 1px;
   //border-right: 0;
   //border-top: 0;
   //border-left: 0;
