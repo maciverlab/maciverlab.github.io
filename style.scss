@@ -312,7 +312,7 @@ table.research {
 }
 
 table.research td {
-  padding: 2rem;
+  padding: 1rem;
   border-right: 0;
   border-top: 0;
   border-left: 0;
@@ -320,15 +320,21 @@ table.research td {
   text-align: left;
   vertical-align: top;
   background-color: #333;
+  color: white;
 }
 
 table.research td:hover {
-  background-color:white;
+  background-color: white;
 }
 
 table.research tbody tr:nth-child(odd) td,
 table.resaerch tbody tr:nth-child(odd) th {
   background-color: #333;
+}
+
+table.research tbody tr:nth-child(odd) td:hover,
+table.resaerch tbody tr:nth-child(odd) th:hover {
+  background-color: white;
 }
 
 table.media {
