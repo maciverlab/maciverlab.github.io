@@ -348,6 +348,15 @@ table.research td:hover {
   background-color: #4d4d4d;
 }
 
+table.research tbody tr:first-child td,
+table.resaerch tbody tr:first-child th {
+  margin-top:-0.5rem
+}
+
+table.research tbody tr:last-child td,
+table.resaerch tbody tr:last-child th {
+  margin-bottom:-0.5rem
+}
 
 table.research tbody tr:nth-child(odd) td,
 table.resaerch tbody tr:nth-child(odd) th {
