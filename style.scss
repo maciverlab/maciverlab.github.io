@@ -318,7 +318,6 @@ table.research {
   //padding: .25rem .5rem;
   width: 100%;
   font-size: 100%;
-  border: 1px solid #404040;
   margin-top: 0.5rem;
   border: 1px solid #404040;
   border-radius: 10px;
@@ -339,6 +338,7 @@ table.research td {
   vertical-align: top;
   background-color: #404040;
   color: white;
+  border: 1px solid #404040;
   border-radius: 10px;
   -moz-border-radius: 10px;
 }
