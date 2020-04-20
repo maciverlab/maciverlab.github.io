@@ -78,9 +78,9 @@ similar to what we discovered the real fish uses for hunting prey.</p>
 
 <ul style="list-style-position:outside;padding:0px;list-style-type:none;">
   <li><a class="research" href="https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/patankar-neelesh.html">Prof. Neelesh Patankar,
-  Computational and Theoretical Fluid Dynamics, Northestern University</a></li>
+  Computational and Theoretical Fluid Dynamics, Northwestern University</a></li>
   <li><a class="research" href="https://oeb.harvard.edu/people/george-v-lauder">Prof. George V. Lauder,
-  Dept. of Organismic &amp; Developmental Biology, Harvard University</a></li>
+  Dept. of Organismic &amp; Evolutionary Biology, Harvard University</a></li>
   <li><a class="research" href="https://limbs.lcsr.jhu.edu/people/cowan/">Prof. Noah J. Cowan,
   Dept. of Mechanical Engineering, Johns Hopkins University</a></li>
 </ul>
