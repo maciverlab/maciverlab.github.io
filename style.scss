@@ -350,9 +350,14 @@ table.research td:hover {
 
 table.research td:first-child,
 table.research th:first-child {
-  border-left: none;
-  border-top: none;
+  padding-top: 0;
 }
+
+table.research td:last-child,
+table.research th:last-child {
+  padding-bottom: 0;
+}
+
 
 table.research tbody tr:nth-child(odd) td,
 table.resaerch tbody tr:nth-child(odd) th {
